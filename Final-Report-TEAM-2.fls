@@ -330,10 +330,20 @@ INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT .\Chicago_Column.png
+INPUT .\Chicago_Column.png
+INPUT .\Chicago_Column.png
+INPUT .\Chicago_Column.png
+INPUT .\Chicago_Column.png
+INPUT .\Chicago_Column.png
+INPUT .\Chicago_Column.png
+INPUT .\TOP_WEATHER_CONDITION_PIE.png
+INPUT .\TOP_WEATHER_CONDITION_PIE.png
+INPUT .\TOP_WEATHER_CONDITION_PIE.png
+INPUT .\TOP_WEATHER_CONDITION_PIE.png
+INPUT .\TOP_WEATHER_CONDITION_PIE.png
+INPUT .\TOP_WEATHER_CONDITION_PIE.png
+INPUT .\TOP_WEATHER_CONDITION_PIE.png
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\mhodg\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -354,6 +364,13 @@ INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\Traffic_Control_Pie.png
+INPUT .\Traffic_Control_Pie.png
+INPUT .\Traffic_Control_Pie.png
+INPUT .\Traffic_Control_Pie.png
+INPUT .\Traffic_Control_Pie.png
+INPUT .\Traffic_Control_Pie.png
+INPUT .\Traffic_Control_Pie.png
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
@@ -366,8 +383,41 @@ INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\Numerical_Hist.png
+INPUT .\Numerical_Hist.png
+INPUT .\Numerical_Hist.png
+INPUT .\Numerical_Hist.png
+INPUT .\Numerical_Hist.png
+INPUT .\Numerical_Hist.png
+INPUT .\Numerical_Hist.png
+INPUT .\k_mode_elbow.png
+INPUT .\k_mode_elbow.png
+INPUT .\k_mode_elbow.png
+INPUT .\k_mode_elbow.png
+INPUT .\k_mode_elbow.png
+INPUT .\k_mode_elbow.png
+INPUT .\k_mode_elbow.png
+INPUT .\KPrototype_Elbow.png
+INPUT .\KPrototype_Elbow.png
+INPUT .\KPrototype_Elbow.png
+INPUT .\KPrototype_Elbow.png
+INPUT .\KPrototype_Elbow.png
+INPUT .\KPrototype_Elbow.png
+INPUT .\KPrototype_Elbow.png
+INPUT .\Chi Square.png
+INPUT .\Chi Square.png
+INPUT .\Chi Square.png
+INPUT .\Chi Square.png
+INPUT .\Chi Square.png
+INPUT .\Chi Square.png
+INPUT .\Chi Square.png
+INPUT .\KP_Percent_ALL.png
+INPUT .\KP_Percent_ALL.png
+INPUT .\KP_Percent_ALL.png
+INPUT .\KP_Percent_ALL.png
+INPUT .\KP_Percent_ALL.png
+INPUT .\KP_Percent_ALL.png
+INPUT .\KP_Percent_ALL.png
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT .\Final-Report-TEAM-2.bbl
 INPUT .\Final-Report-TEAM-2.bbl
@@ -388,8 +438,6 @@ INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
-INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\mhodg\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb

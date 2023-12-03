@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  3 DEC 2023 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  3 DEC 2023 11:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -699,43 +699,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<Chicago_Column.png, id=31, 411.33675pt x 284.262pt>
+File: Chicago_Column.png Graphic file (type png)
+<use Chicago_Column.png>
+Package pdftex.def Info: Chicago_Column.png  used on input line 101.
+(pdftex.def)             Requested size: 252.0pt x 174.14993pt.
 
-LaTeX Warning: File `Chicago_Column.png' not found on input line 101.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:101: Package pdftex.def Error: File `Chicago_Column.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...ics[width=\linewidth]{Chicago_Column.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 101.
-(C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: File `TOP_WEATHER_CONDITION_PIE.png' not found on input line 109.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:109: Package pdftex.def Error: File `TOP_WEATHER_CONDITION_PIE.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...linewidth]{TOP_WEATHER_CONDITION_PIE.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<TOP_WEATHER_CONDITION_PIE.png, id=33, 467.94826pt x 307.74976pt>
+File: TOP_WEATHER_CONDITION_PIE.png Graphic file (type png)
+<use TOP_WEATHER_CONDITION_PIE.png>
+Package pdftex.def Info: TOP_WEATHER_CONDITION_PIE.png  used on input line 109.
+(pdftex.def)             Requested size: 252.0pt x 165.73158pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 106--113
 []\OT1/ptm/b/n/10 EDA
@@ -750,20 +727,11 @@ Underfull \hbox (badness 2680) in paragraph at lines 106--113
 
 
 ]
-
-LaTeX Warning: File `Traffic_Control_Pie.png' not found on input line 117.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:117: Package pdftex.def Error: File `Traffic_Control_Pie.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 ...idth=\linewidth]{Traffic_Control_Pie.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<Traffic_Control_Pie.png, id=47, 431.211pt x 305.34074pt>
+File: Traffic_Control_Pie.png Graphic file (type png)
+<use Traffic_Control_Pie.png>
+Package pdftex.def Info: Traffic_Control_Pie.png  used on input line 117.
+(pdftex.def)             Requested size: 252.0pt x 178.43958pt.
 
 c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:118: Missing $ inserted.
 <inserted text> 
@@ -803,95 +771,42 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+<Numerical_Hist.png, id=48, 405.31425pt x 362.5545pt>
+File: Numerical_Hist.png Graphic file (type png)
+<use Numerical_Hist.png>
+Package pdftex.def Info: Numerical_Hist.png  used on input line 123.
+(pdftex.def)             Requested size: 252.0pt x 225.41212pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: File `Numerical_Hist.png' not found on input line 123.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:123: Package pdftex.def Error: File `Numerical_Hist.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 ...ics[width=\linewidth]{Numerical_Hist.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<k_mode_elbow.png, id=49, 440.24475pt x 302.3295pt>
+File: k_mode_elbow.png Graphic file (type png)
+<use k_mode_elbow.png>
+Package pdftex.def Info: k_mode_elbow.png  used on input line 135.
+(pdftex.def)             Requested size: 252.0pt x 173.05847pt.
+<KPrototype_Elbow.png, id=50, 599.23875pt x 290.88675pt>
+File: KPrototype_Elbow.png Graphic file (type png)
+<use KPrototype_Elbow.png>
+Package pdftex.def Info: KPrototype_Elbow.png  used on input line 141.
+(pdftex.def)             Requested size: 252.0pt x 122.32695pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: File `k_mode_elbow.png' not found on input line 135.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:135: Package pdftex.def Error: File `k_mode_elbow.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...phics[width=\linewidth]{k_mode_elbow.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `KPrototype_Elbow.png' not found on input line 141.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:141: Package pdftex.def Error: File `KPrototype_Elbow.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 ...s[width=\linewidth]{KPrototype_Elbow.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 5533) has occurred while \output is active []
-
- [2]
-
-LaTeX Warning: File `Chi Square.png' not found on input line 149.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:149: Package pdftex.def Error: File `Chi Square.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ...raphics[width=\linewidth]{Chi Square.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `KP_Percent_ALL.png' not found on input line 155.
-
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:155: Package pdftex.def Error: File `KP_Percent_ALL.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 ...ics[width=\linewidth]{KP_Percent_ALL.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Chi Square.png, id=51, 386.6445pt x 226.446pt>
+File: Chi Square.png Graphic file (type png)
+<use Chi Square.png>
+Package pdftex.def Info: Chi Square.png  used on input line 149.
+(pdftex.def)             Requested size: 252.0pt x 147.58896pt.
+<KP_Percent_ALL.png, id=52, 546.24075pt x 422.7795pt>
+File: KP_Percent_ALL.png Graphic file (type png)
+<use KP_Percent_ALL.png>
+Package pdftex.def Info: KP_Percent_ALL.png  used on input line 155.
+(pdftex.def)             Requested size: 252.0pt x 195.04216pt.
+[2 <./Chicago_Column.png> <./TOP_WEATHER_CONDITION_PIE.png> <./Traffic_Control_Pie.png> <./Numerical_Hist.png> <./k_mode_elbow.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] (Final-Report-TEAM-2.bbl
+(Final-Report-TEAM-2.bbl
 
 Final-Report-TEAM-2.bbl:24: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -977,9 +892,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (Final-Report-TEAM-2.aux)
+[3 <./KPrototype_Elbow.png> <./Chi Square.png> <./KP_Percent_ALL.png>] (Final-Report-TEAM-2.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
@@ -998,17 +911,17 @@ Package rerunfilecheck Info: Checksums for `Final-Report-TEAM-2.out':
 (rerunfilecheck)             After:  7B7F43567FCCD5A4116281649DDA906E;1102.
  ) 
 Here is how much of TeX's memory you used:
- 24423 strings out of 474718
- 458116 string characters out of 5748457
+ 24200 strings out of 474718
+ 451893 string characters out of 5748457
  1948036 words of memory out of 5000000
- 46033 multiletter control sequences out of 15000+600000
- 598277 words of font info for 121 fonts, out of 8000000 for 9000
+ 45816 multiletter control sequences out of 15000+600000
+ 597762 words of font info for 119 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,11n,103p,776b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final-Report-TEAM-2.pdf (4 pages, 129634 bytes).
+ 99i,11n,103p,776b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Final-Report-TEAM-2.pdf (3 pages, 436170 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
