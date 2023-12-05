@@ -62,12 +62,7 @@ mhodgetts@comcast.net}
 \textit{EE 695 - Machine Learning}\\
 Hoboken, NJ \\
 paldugurithvika@gmail.com}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Nathan, Barry}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{EE-695 - Machine Learning}\\
-Hoboken, NJ \\
-nate.b4rry@gmail.com}
+
 }
 
 \maketitle
@@ -150,7 +145,7 @@ cluster characteristics with so many attributes.  We did some Chi Testing on the
 	\caption{Chi Square Testing View}
 	\label{table: Chi Square Testing View}
 \end{figure}
-We uUtilized pspark to use groupby by clusters by percent of occurence to see what patterns emerge.  We may have to build this view outside of Python to get a good illustrative view ith excel.  At the current time, we're assessing how to decribe these these clusters and find recommendations to provide back to the city of Chicago. This figure below issustrates the comparison we are doing with 4 clusters verses the categorical columns.  You can see clearly differences in of how the clustering divided up the percent allocation. Percent allocation is based total population so we can compare to each different attribute.  Will do the same for the numerical but it will look a little different since we will use averages.
+We uUtilized pspark to use groupby by clusters by percent of occurence to see what patterns emerge.  We may have to build this view outside of Python to get a good illustrative view ith excel.  At the current time, we're assessing how to describe these these clusters and find recommendations to provide back to the city of Chicago. This figure below issustrates the comparison we are doing with 4 clusters verses the categorical columns.  You can see clearly differences in of how the clustering divided up the percent allocation. Percent allocation is based total population so we can compare to each different attribute.  Will do the same for the numerical but it will look a little different since we will use averages.
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{KP_Percent_ALL.png}
 	\caption{Example of Cluster Heatmap for Categorical Attributes }
@@ -159,6 +154,45 @@ We uUtilized pspark to use groupby by clusters by percent of occurence to see wh
 2
 
 \section{Comparison}  
+In this section we'll discuss the results of each method and show more in detail the best solution results.  The table below shows a summary of the different clustering algorithms.
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{Model_summary.png}
+	\caption{Model_summary }
+	\label{fig: Model_summary}
+\end{figure}
+
+\textbf{Kmodes} \linebreak
+Kmodes is designed for categorical data only and it a can take the data without hot encoding.  K-modes was successful and did a good job of clustering but you have to take out the numerical data and run that on kmeans.  The cluster allocation is similar to K-prototype and its error was also one of the lowest
+
+\textbf{Kmeans} \linebreak
+Kmeans above in the chart reflects the numerical data only,  you can try to run the categorical data with hot encoding but it accuracy or abilityto cluster diminishes.
+
+
+\textbf{GMM} \linebreak
+We used both numeric scaling and hot encoding here but we think that GMM is suited better with only numerical data.  Here the cluster allocation was skewed towards one cluster that has the majority of volume.  This was not our ideal solution.
+\textbf{DBSCAN} \linebreak
+DBSCAN was very sensitive to the amount of data and columns.  Only numerical data was used here and finding the EPS and min sample values was a challenge,  Had to iterate through 50 different EPS values to find a sweet spot.  By changing EPS by only 0.01 increments at that sweet spot changed clusters size and number of cluster significantly.  The results were not optimal and we saw again high allocation to one cluster.  Also this could not be used effectively with categorical data.
+
+\textbf{K-prototype} \linebreak
+
+KPrototype was our best soluton in that we can use all the data and train at the same time.  This took significantly longer to train as you can see compared to others in the table.  The volume allocation was similar to kmodes.  So we can use kmeans for numerical and kmodes for categorical and combine them but KP does it together.  We'll use KP to explain the main difference we see in the 4 clusters we trained on
+
+\textbf{Cluster Characteristicse} \linebreak
+
+Cluster 1
+
+
+Cluster 2
+
+
+Cluster 3
+
+
+
+Cluster 4
+
+
+
 Gaussian clustered results didn't look correct since the majority of the volume was placed into one cluster, we think this is because it can't handle or interpret hot encoding or dummy variable too well.  Kmodes and Kprototype gave similar results. 
 report.  Also DBSCAN was very senstive to EPS and Samples and could not achieve 4 clusters but only 3 with a majority of volume in one cluster alone.  We will continue to examine if we can resolve this.
 We will add to this section in our final.
