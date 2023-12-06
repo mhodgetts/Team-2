@@ -146,11 +146,7 @@ cluster characteristics with so many attributes.  We did some Chi Testing on the
 	\label{table: Chi Square Testing View}
 \end{figure}
 We uUtilized pspark to use groupby by clusters by percent of occurence to see what patterns emerge.  We may have to build this view outside of Python to get a good illustrative view ith excel.  At the current time, we're assessing how to describe these these clusters and find recommendations to provide back to the city of Chicago. This figure below issustrates the comparison we are doing with 4 clusters verses the categorical columns.  You can see clearly differences in of how the clustering divided up the percent allocation. Percent allocation is based total population so we can compare to each different attribute.  Will do the same for the numerical but it will look a little different since we will use averages.
-\begin{figure}[!h]
-	\includegraphics[width=\linewidth]{KP_Percent_ALL.png}
-	\caption{Example of Cluster Heatmap for Categorical Attributes }
-	\label{fig: Example of Cluster Heatmap for Categorical Attributes (4 Clusters)}
-\end{figure}
+
 2
 
 \section{Comparison}  
@@ -177,25 +173,52 @@ DBSCAN was very sensitive to the amount of data and columns.  Only numerical dat
 
 KPrototype was our best soluton in that we can use all the data and train at the same time.  This took significantly longer to train as you can see compared to others in the table.  The volume allocation was similar to kmodes.  So we can use kmeans for numerical and kmodes for categorical and combine them but KP does it together.  We'll use KP to explain the main difference we see in the 4 clusters we trained on
 
-\textbf{Cluster Characteristicse} \linebreak
+\textbf{Cluster-Characteristics} \linebreak
+
+Below is a partial view of the KP Heatmap for the 4 clusters
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{Heatmap_KP.png}
+	\caption{Example of Cluster Heatmap for Categorical Attributes }
+	\label{fig: Cluster Heatmap for Categorical Attributes (4 Clusters)}
+\end{figure}
 
 Cluster 1
-
+-In general 1 has the lowest occurance of crash attributes
+-lowest occurance of any damage level
+-Volume is lowest
+-unlikely for Hit and run
+-first 1-3 day of week occurance
 
 Cluster 2
-
+-In general 2 has the second lowest occurance of crash attributes
+-Likely to see Parked Vehicle Crash
+-likely Hit and Run
+-overindex on Sex X
+-overindex on Sex F
+-first 1-3 day of week occurance
 
 Cluster 3
-
-
+-Overindex on Crash Injury
+-Overindex turning related crash type
+-Overindex on Interection related crash
+-Overindex incapaciting injury
+-Overindex disregarding traffic signals
+-Overindex device condition functioning properly
+-Overindex disregarding stop sign
+-Overindex likely to report on scene
+-likely to occur in the first 6 months of years
 
 Cluster 4
+-Volume is highest
+-Overindex Parked Motor Vehicle
+-Overindex on no injury
+-Overindex no control for device condition (non traffic light)
+-Overindex to be rear ended
+-Overindex for follow to closely crash type
+-Overindex for months 7-12
 
 
-
-Gaussian clustered results didn't look correct since the majority of the volume was placed into one cluster, we think this is because it can't handle or interpret hot encoding or dummy variable too well.  Kmodes and Kprototype gave similar results. 
-report.  Also DBSCAN was very senstive to EPS and Samples and could not achieve 4 clusters but only 3 with a majority of volume in one cluster alone.  We will continue to examine if we can resolve this.
-We will add to this section in our final.
 
 \section{Future Directions}
 We still need to try other methods and see if the allocations are significantly different.  We'll describe each cluster characteristics in more detail.
