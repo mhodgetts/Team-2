@@ -122,7 +122,7 @@ Here we show a sampling of some of the attributes classes for the categorical da
 
  \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Traffic_Control_Pie.png}
-	\caption{Traffic_Control_Pie}
+	\caption{Traffic Control_Pie}
 	\label{fig: Traffic_Control_Pie}
  \end{figure}
  Here are some of the numeric attributes to examine
@@ -148,7 +148,7 @@ cluster characteristics with so many attributes.  We did some Chi Testing on the
 	\caption{Chi Square Testing View}
 	\label{table: Chi Square Testing View}
 \end{figure}
-We uUtilized pspark to use groupby by clusters by percent of occurence to see what patterns emerge.  We may have to build this view outside of Python to get a good illustrative view ith excel.  At the current time, we're assessing how to describe these these clusters and find recommendations to provide back to the city of Chicago. This figure below issustrates the comparison we are doing with 4 clusters verses the categorical columns.  You can see clearly differences in of how the clustering divided up the percent allocation. Percent allocation is based total population so we can compare to each different attribute.  Will do the same for the numerical but it will look a little different since we will use averages.
+We utilized pspark to use groupby by clusters by percent of occurence to see what patterns emerge.  We may have to build this view outside of Python to get a good illustrative view ith excel.  At the current time, we're assessing how to describe these these clusters and find recommendations to provide back to the city of Chicago. This figure below issustrates the comparison we are doing with 4 clusters verses the categorical columns.  You can see clearly differences in of how the clustering divided up the percent allocation. Percent allocation is based total population so we can compare to each different attribute.  Will do the same for the numerical but it will look a little different since we will use averages.
 
 \subsection{Implementation Details}
 This subsection describes details of your implementation. Please focus on how you test and validate the performance, tune the hyperparameters, and select the best-performing models. Elaborate on techniques that you apply to improve the performance and explain why you use these techniques. You include few most important results/figures to illustrate your idea but do not let figures/tables dominate the content of the report. You can include few lines of critical code if needed. But please avoid paste lengthy code in your report. Please make sure the figures/tables/code snapshots are of appropriate size including the font size.
@@ -158,30 +158,46 @@ This subsection describes details of your implementation. Please focus on how yo
 In this section we'll discuss the results of each method and show more in detail the best solution results.  The table below shows a summary of the different clustering algorithms.
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Model_summary.png}
-	\caption{Model_summary }
+	\caption{Model Summary}
 	\label{fig: Model_summary}
 \end{figure}
 \begin{center} 
 \textbf{Kmodes} 
 \end{center}
-Kmodes is designed for categorical data only and it a can take the data without hot encoding.  K-modes was successful and did a good job of clustering but you have to take out the numerical data and run that on kmeans.  The cluster allocation is similar to K-prototype and its error was also one of the lowest
+Kmodes is designed for categorical data only and it a can take the data without hot encoding.  K-modes was successful and did a good job of clustering but you have to take out the numerical data and run that on kmeans.  The cluster allocation is similar to K-prototype and its error was also one of the lowest in term of SSE.
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{k_mode_elbow.png}
-	\caption{k-means}
-	\label{fig: kmode elbow chart}
+	\caption{k-mode}
+	\label{fig: Kmode Elbow Chart}
  \end{figure}
 
 \begin{center} 
 \textbf{Kmeans} 
 \end{center}
-Kmeans above in the chart reflects the numerical data only,  you can try to run the categorical data with hot encoding but it accuracy or abilityto cluster diminishes.
+Kmeans above in the chart reflects the numerical data only,  you can try to run the categorical data with hot encoding but it accuracy or ability to cluster diminishes.
+
+Here is the numerical cluster view,  We used mean and count to assess the numerical data
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{k_mode_elbow.png}
+	\caption{k-mode}
+	\label{fig: Kmode Elbow Chart}
+ \end{figure}
+
 
 \begin{center} 
 \textbf{GMM} 
 \end{center}
-We used both numeric scaling and hot encoding here but we think that GMM is suited better with only numerical data.  Here the cluster allocation was skewed towards one cluster that has the majority of volume.  This was not our ideal solution.
+We used both numeric scaling and hot encoding here but we think that GMM is suited better with only numerical data.  Here the cluster allocation was skewed towards one cluster that has the majority of volume.  This was not our ideal solution.  Here below is partial view of the cluster allocation.  The first cluster is dominate in size with over 69 percent of the population. 
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{GMM_Percent_Results.png}
+	\caption{GMM Cluster Results}
+	\label{fig: GMM Cluster Results (Partial View)}
+ \end{figure}
 \begin{center} 
+
 \textbf{DBSCAN} 
 \end{center}
 DBSCAN was very sensitive to the amount of data and columns.  Only numerical data was used here and finding the EPS and min sample values was a challenge,  Had to iterate through 50 different EPS values to find a sweet spot.  By changing EPS by only 0.01 increments at that sweet spot changed clusters size and number of cluster significantly. The best EPS value was 28
