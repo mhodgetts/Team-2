@@ -9,6 +9,7 @@
 \makeatother
 \pagestyle{empty}
 \usepackage{url}
+\usepackage{placein}
 \usepackage{graphicx,subfigure}
 \usepackage{epstopdf}
 \usepackage{amsmath}
@@ -74,24 +75,25 @@ Practice as a team to analyse unsupervised data by exploring various clustering 
 
 \section{Introduction}
 Utilizing two datasets from Chicago Department website (Crashes and People related to Crashes), we like to find areas/neighborhoods within the city that have different characteristics in terms of the attributes available.  Dataset is large (750K rows) so we decided to look at only 2 years,i.e. 2021 and 2022 which reduces the row count to about 250K.  There is a good amount of prep to get data suitable for cluster analysis (ETL, Hot Encoding, data cleanup)
-We tried 5 different cluster method with varying results.  We will illustrate some of the main 
-differences these assigned clusters present. Provide a summary of each cluster characteristics to illustrate the main differences between them.  
+We tried 5 different cluster methods with varying results.  e'll give some brief description of each method and its pros and cons for this particular data set.  We will illustrate some of the main differences these assigned clusters present. Provide a summary of each cluster characteristics to illustrate the main differences between them.  
 
 \section{Related Work}
-There are many examples on how clustering solves problems in various business use cases.  Segmentation analysis, anomoly detection and a form of classification are some of the use cases. There are also Deep Learning techniques that we could have explored but we ran out of time.  The analysis here could be useful to identify hot areas of accidents due to poor signage, road conditions, and other conditions that could be improved to reduce accidents or injuries in the Chicago area.  Practicing how to get meaningful insights is essential in the business world. 
+There are many examples on how clustering solves problems in various business use cases.  Segmentation analysis, anomoly detection and a form of classification are some of the use cases. There are also Deep Learning techniques that we could have explored but we ran out of time.  The analysis here could be useful to identify hot areas of accidents due to poor signage, road conditions, and other conditions that could be improved to reduce accidents or injuries in the Chicago area.  Practicing how to get meaningful insights is essential in the business world.  Also, knowledge of mapping techniques or illustrating the clusters using coordinates or zip codes would be useful.  We are deficient in this area and had spent endless hours trying to learn shapely files and GEO methods to show how the car accidents distributed across the Chicago area.  It seems you can have a semester class on mapping techniques alone.
 
 
 \section{Our Solution}
-Since the data is large and has many attributes (both numerical and categorical), reducing the number of attributes will be critical.  Also, minimizing the number of clusters needed is beneficial to ensure each cluster has meaningful differences and similar volume. Heatmaps showing differences will be provided to help show major allocation of attributes to each cluster. Another issue is we have a lot of category data as well as continous.  k-modes was explored first since it handles categorical data and kmeans covers numerical.  K-Prototypes covers both at the same time.  We tried to use Gaussian Mixture but that seems to not be appropriate and gave us unusual results.  Another method is DBSCAN which can handle hot encoding but so far find it difficult to gain the necessary clusters needed, very sensitive to  (EPS) and size of data.  kprototype so far has the best results with the mixed data.  We will show Heatmaps to illustrate our results and provide summary description of the final clustering results.  Significant code related to grouping data to assess the cluster allocation was neccessary in evaluating key differences for each cluster.
+Since the data is large and has many attributes (both numerical and categorical), reducing the number of attributes will be critical.  Also, minimizing the number of clusters needed is beneficial to ensure each cluster has meaningful differences and similar volume. Created Heatmaps showing percent differences will be provided to help show major allocation of attributes to each cluster. k-modes was explored first since it handles categorical data and kmeans covers numerical.  K-Prototypes covers both at the same time.  We tried to use Gaussian Mixture but that seems to not be appropriate and gave us unusual results.  Another method is DBSCAN which can handle hot encoding but so far find it difficult to gain the necessary clusters needed, very sensitive to (EPS) and size of data.  kprototype so far has the best results with the mixed data.  We will show Heatmaps to illustrate our results and provide summary description of the final clustering results.  Significant code related to grouping data uing pspark to assess the cluster allocation was neccessary in evaluating key differences for each cluster.  We also utilized Knime an ETL software to ensure the joining of data looked good,  it sometimes harder to evaluate a join in python mode.
 
 \subsection{Description of Dataset}
-The dataset can be found here: \href{https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if}{Chicago Crashe Data}, Two datasets; one for crashes in Chicago and the other are the people characteristics of those crashes.  The 'Crash ID' is the key attribute to join the 2 datasets.  We reduced the size to only years 2021 and 2022 which still leaves about 250K rows and 68 columns.  We used Knime (ETL software) to help do this join and ensure it was properly achieved. The output of the Knime workflow is our starting point for the python code section.
+The dataset can be found here: \href{https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if}{Chicago Crashe Data}, Two datasets; one for crashes in Chicago and the other are the people characteristics involved in those crashes.  The 'Crash ID' is the key attribute to join the 2 datasets.  We reduced the size to only years 2021 and 2022 which still leaves about 250K rows and 68 columns.  We used Knime (ETL software) to help do this join and ensure it was properly achieved. The output of the Knime workflow is our starting point for the python code section.
 Here is the workflow using KNIME ETL software:
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Knime_Workflow.png}
 	\caption{Chicago Dataset Prep}
 	\label{fig: KNIME ETL for Chicago Dataset for Crashes and People involved}
  \end{figure}
+
+ Knime workflow takes in both car crashes file and people related to those crashes and join them using the crash id common attribute.  We then filter redundant columns due to the join and evaluate which columns not relevant and impute mean data for missing values for those remaining.
 
 Data had very few problems with missing data but we removed as necessary or added average values as needed. We separated the dataset into two parts, categorical and numerical.  Performed Hot Encoding on the categorical and scaling on the numberical (0,1), then combined them back together as one file.  New Shape of the file is now  248K by 111 columns with hot encoding. We created another dataset for k-prototypes which has 31 columns based on what attributes we deemed valuable.  Pie charts were useful in this particular dataset since most attributes are categorical.  Many Attributes had too many categories that added more complexity so therefore we re-classify those less than 1 percent into one group called remainder to help reduce the number of hot columns needed. \linebreak
 
@@ -110,67 +112,74 @@ Here we show a sampling of some of the attributes classes for the categorical da
 	\caption{Categorical Pie Charts (TOP Driver Reasons)}
 	\label{fig: Top Driver Condition Pie chart}
  \end{figure}
-
+More than half of the Top Driver clasifications are not known which hinders our evaluation
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{TOP_WEATHER_CONDITION_PIE.png}
 	\caption{Categorical Pie Charts (Sampling View)}
 	\label{fig: Top_Weather_Condition Pie chart}
  \end{figure}
-
+Majority of crashes where in clear Weather
  
-
  \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Traffic_Control_Pie.png}
 	\caption{Traffic Control_Pie}
 	\label{fig: Traffic_Control_Pie}
  \end{figure}
- Here are some of the numeric attributes to examine
+
+ Almost 50 percent of crashes had some control place like a stop sign or traffic light
+
+ Here are some of the numeric attributes we examined
  \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Numerical_Hist.png}
 	\caption{Numeric Histograms (Sampling View)}
 	\label{fig: Numeric Histograms}
  \end{figure}
 
- note:
+ Couple of callouts for the numerical data is that crashes overindex in the winter months and there is some difference among which of the week seems to matter as well.  Age shows a signficant amount around 39 years old, this seems like a possible data issue but in general the lower the age more likely to have car crash.  Also, the Crash hour chart shows a peak around dinner time which seems like an expected result.
 
 \subsection{Machine Learning Algorithms}
 Our data is raw and has no classification or specific purpose so it lends itself to utilize unsupervised data techniques. 
-We explored K-modes, kmeans, kprototype and DBSCAN and will investigate other possible methods to find insights. kprototype is our best hope so far to get good results since 
-it handles both categorical and numeric attributes.  Kmodes can only handle category and kmeans does numerical. Noticed Kprototype takes a very long time to process the model.  Elbow curve took over 24 hours. Since we have a large dataset, training take a good length of time for all model types.  We created elbow curves for both K-modes and Kprototypes in the figures below:  
+We explored K-modes, kmeans, GMM, kprototype and DBSCAN and will investigate other possible methods to find insights. kprototype is our best hope so far to get good results since it handles both categorical and numeric attributes.  Kmodes can only handle category and kmeans does numerical. We noticed Kprototype takes a very long time to process the model.  Elbow curve took over 24 hours. Since we have a large dataset, training and other tasks take a good length of time for all model types.  We created elbow curves for most of these technique. We'll discuss more in our solution section for each algorithm mentioned
 
- 
-
-From figures 2 and 3 you can see 4 clusters would be reasonable.  We currently picked 4 clusters as a start. The difficulty is assessing the 
-cluster characteristics with so many attributes.  We did some Chi Testing on the attributes to find any that were not relevate but all picked were significant.
+We did some Chi Testing on the attributes to find any that were not relevate but all picked were significant.
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Chi Square.png}
 	\caption{Chi Square Testing View}
 	\label{table: Chi Square Testing View}
 \end{figure}
-We utilized pspark to use groupby by clusters by percent of occurence to see what patterns emerge.  We may have to build this view outside of Python to get a good illustrative view ith excel.  At the current time, we're assessing how to describe these these clusters and find recommendations to provide back to the city of Chicago. This figure below issustrates the comparison we are doing with 4 clusters verses the categorical columns.  You can see clearly differences in of how the clustering divided up the percent allocation. Percent allocation is based total population so we can compare to each different attribute.  Will do the same for the numerical but it will look a little different since we will use averages.
+We utilized pspark to use groupby by clusters by percent of occurence to see what patterns emerge.  We then exported this view to an excel so we can do further analysis to create a heatmap. We'll look at both the numberical and categorical and for our best solution we describe what each cluster overindexes on compared to the others
 
-\subsection{Implementation Details}
-This subsection describes details of your implementation. Please focus on how you test and validate the performance, tune the hyperparameters, and select the best-performing models. Elaborate on techniques that you apply to improve the performance and explain why you use these techniques. You include few most important results/figures to illustrate your idea but do not let figures/tables dominate the content of the report. You can include few lines of critical code if needed. But please avoid paste lengthy code in your report. Please make sure the figures/tables/code snapshots are of appropriate size including the font size.
+\subsection{Implementation Details and Comparison}
 
-
-\section{Comparison}  
+ 
 In this section we'll discuss the results of each method and show more in detail the best solution results.  The table below shows a summary of the different clustering algorithms.
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Model_summary.png}
 	\caption{Model Summary}
 	\label{fig: Model_summary}
 \end{figure}
+
+Table above illustrates how each cluster method can be applied.  DBSCAN didn't seem suited for this dataset and it was very difficult to work with in terms of tuning parameters like EPS and Min samples.  Doesn't seem to scale well with all this data.  Kmodes and KPrototype we fairly close but KP had less error with both numberical and categorical combined to the only categorical of the kmodes.  
+
 \begin{center} 
 \textbf{Kmodes} 
 \end{center}
-Kmodes is designed for categorical data only and it a can take the data without hot encoding.  K-modes was successful and did a good job of clustering but you have to take out the numerical data and run that on kmeans.  The cluster allocation is similar to K-prototype and its error was also one of the lowest in term of SSE.
+Kmodes is designed for categorical data only and it a can take the data without hot encoding.  K-modes was successful and did a good job of clustering but you have to take out the numerical data and run that on kmeans.  Therefore it becomes a 2 step process.  The cluster allocation is similar to K-prototype and its error was also one of the lowest in term of SSE.
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{k_mode_elbow.png}
 	\caption{k-mode}
 	\label{fig: Kmode Elbow Chart}
  \end{figure}
+The elbow chart indicates that 3-4 clusters should be adequate
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{Kmode_Percent_Alloc.png}
+	\caption{Kmode Cluster Allocation (Partial View)}
+	\label{fig: Kmode Cluster Allocation (Partial View)}
+ \end{figure}
+
+ Dark Green represent more allocation vs darkred.  Percent volume of each cluster is reasonable between 20-30 percent.
 
 \begin{center} 
 \textbf{Kmeans} 
@@ -180,16 +189,29 @@ Kmeans above in the chart reflects the numerical data only,  you can try to run 
 Here is the numerical cluster view,  We used mean and count to assess the numerical data
 
 \begin{figure}[!h]
-	\includegraphics[width=\linewidth]{k_mode_elbow.png}
-	\caption{k-mode}
-	\label{fig: Kmode Elbow Chart}
+	\includegraphics[width=\linewidth]{kmeans_num_elbow.png}
+	\caption{k-means}
+	\label{fig: Kmeans Elbow Chart}
  \end{figure}
+The numerical results were disapointing in that the shared volume across the clusters is similar for larger allocations but there are some minor differences between for the smaller insignificant occurences. Below we show an example for Posted Speed limit allocation for kmeans, you see very little distinction among the clusters.
 
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{KMEAN_Num_PostedSpeed.png}
+	\caption{kmeanexample for Posted Speed Limit}
+	\label{fig: Example View for Kmeans Posted Speed Limit Cluster Allocation}
+ \end{figure}
 
 \begin{center} 
 \textbf{GMM} 
 \end{center}
 We used both numeric scaling and hot encoding here but we think that GMM is suited better with only numerical data.  Here the cluster allocation was skewed towards one cluster that has the majority of volume.  This was not our ideal solution.  Here below is partial view of the cluster allocation.  The first cluster is dominate in size with over 69 percent of the population. 
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{GMM_Clutering.png}
+	\caption{GMM Elbow}
+	\label{fig: GMM Elbow}
+ \end{figure}
+\begin{center}
+The AIC and BIC are similar for all cluster values checked
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{GMM_Percent_Results.png}
