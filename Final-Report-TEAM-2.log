@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  3 DEC 2023 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  9 DEC 2023 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,171 +642,318 @@ File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \c@callevel=\count340
 \c@callselflevel=\count341
 \c@blocklevel=\count342
-) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen297
+\captionmargin=\dimen298
+\caption@leftmargin=\dimen299
+\caption@rightmargin=\dimen300
+\caption@width=\dimen301
+\caption@indent=\dimen302
+\caption@parindent=\dimen303
+\caption@hangindent=\dimen304
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count343
+\c@continuedfloat=\count344
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+)
+LaTeX Info: Redefining \subref on input line 189.
+Package subcaption Info: The counter `subfigure' was already defined by
+(subcaption)             an unknown document class or package on input line 238.
+Package subcaption Info: The counter `subtable' was already defined by
+(subcaption)             an unknown document class or package on input line 238.
+) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen305
+\lightrulewidth=\dimen306
+\cmidrulewidth=\dimen307
+\belowrulesep=\dimen308
+\belowbottomsep=\dimen309
+\aboverulesep=\dimen310
+\abovetopsep=\dimen311
+\cmidrulesep=\dimen312
+\cmidrulekern=\dimen313
+\defaultaddspace=\dimen314
+\@cmidla=\count345
+\@cmidlb=\count346
+\@aboverulesep=\dimen315
+\@belowrulesep=\dimen316
+\@thisruleclass=\count347
+\@lastruleclass=\count348
+\@thisrulewidth=\dimen317
+)
+\subfigwidth=\skip71
+ (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count343
+\l__color_backend_stack_int=\count349
 \l__pdf_internal_box=\box72
 ) (Final-Report-TEAM-2.aux)
 \openout1 = `Final-Report-TEAM-2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 -- Lines per column: 56 (exact).
 (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count344
-\scratchdimen=\dimen297
+\scratchcounter=\count350
+\scratchdimen=\dimen318
 \scratchbox=\box73
-\nofMPsegments=\count345
-\nofMParguments=\count346
+\nofMPsegments=\count351
+\nofMParguments=\count352
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count347
-\MPscratchDim=\dimen298
-\MPnumerator=\count348
-\makeMPintoPDFobject=\count349
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen319
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
 \everyMPtoPDFconversion=\toks48
 )
-\c@lstlisting=\count350
-Package hyperref Info: Link coloring OFF on input line 46.
+\c@lstlisting=\count356
+Package hyperref Info: Link coloring OFF on input line 57.
 \@outlinefile=\write4
 \openout4 = `Final-Report-TEAM-2.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 74.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Chicago_Column.png, id=31, 411.33675pt x 284.262pt>
-File: Chicago_Column.png Graphic file (type png)
-<use Chicago_Column.png>
-Package pdftex.def Info: Chicago_Column.png  used on input line 101.
-(pdftex.def)             Requested size: 252.0pt x 174.14993pt.
+<Chicago Heatmap for Crashes by Zipcode.png, id=30, 359.54324pt x 340.8735pt>
+File: Chicago Heatmap for Crashes by Zipcode.png Graphic file (type png)
+<use Chicago Heatmap for Crashes by Zipcode.png>
+Package pdftex.def Info: Chicago Heatmap for Crashes by Zipcode.png  used on input line 93.
+(pdftex.def)             Requested size: 252.0pt x 238.92189pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<TOP_WEATHER_CONDITION_PIE.png, id=33, 467.94826pt x 307.74976pt>
-File: TOP_WEATHER_CONDITION_PIE.png Graphic file (type png)
-<use TOP_WEATHER_CONDITION_PIE.png>
-Package pdftex.def Info: TOP_WEATHER_CONDITION_PIE.png  used on input line 109.
-(pdftex.def)             Requested size: 252.0pt x 165.73158pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
-[]\OT1/ptm/b/n/10 EDA
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 106--113
-\OT1/ptm/m/n/10 Here we show a sam-pling of some of the at-tributes
- []
 
 [1{C:/Users/mhodg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-]
-<Traffic_Control_Pie.png, id=47, 431.211pt x 305.34074pt>
+ <./Chicago Heatmap for Crashes by Zipcode.png>]
+<Knime_Workflow.png, id=47, 747.9945pt x 295.70474pt>
+File: Knime_Workflow.png Graphic file (type png)
+<use Knime_Workflow.png>
+Package pdftex.def Info: Knime_Workflow.png  used on input line 109.
+(pdftex.def)             Requested size: 252.0pt x 99.62231pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+<Chicago_Column.png, id=48, 411.33675pt x 284.262pt>
+File: Chicago_Column.png Graphic file (type png)
+<use Chicago_Column.png>
+Package pdftex.def Info: Chicago_Column.png  used on input line 120.
+(pdftex.def)             Requested size: 252.0pt x 174.14993pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<TOP_DRIVER_PIE.png, id=49, 415.5525pt x 263.18324pt>
+File: TOP_DRIVER_PIE.png Graphic file (type png)
+<use TOP_DRIVER_PIE.png>
+Package pdftex.def Info: TOP_DRIVER_PIE.png  used on input line 129.
+(pdftex.def)             Requested size: 252.0pt x 159.59781pt.
+<TOP_WEATHER_CONDITION_PIE.png, id=50, 467.94826pt x 307.74976pt>
+File: TOP_WEATHER_CONDITION_PIE.png Graphic file (type png)
+<use TOP_WEATHER_CONDITION_PIE.png>
+Package pdftex.def Info: TOP_WEATHER_CONDITION_PIE.png  used on input line 136.
+(pdftex.def)             Requested size: 252.0pt x 165.73158pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Traffic_Control_Pie.png, id=51, 431.211pt x 305.34074pt>
 File: Traffic_Control_Pie.png Graphic file (type png)
 <use Traffic_Control_Pie.png>
-Package pdftex.def Info: Traffic_Control_Pie.png  used on input line 117.
+Package pdftex.def Info: Traffic_Control_Pie.png  used on input line 143.
 (pdftex.def)             Requested size: 252.0pt x 178.43958pt.
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:118: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
 <inserted text> 
                 $
-l.118 	\caption{Traffic_Control_Pie}
+l.144 	\caption{Traffic Control_Pie}
                                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:118: Extra }, or forgotten $.
-\@makecaption ....}\nobreakspace \nobreakspace #2}
-                                                  \ifdim \wd \@tempboxa >\hs...
-l.118 	\caption{Traffic_Control_Pie}
-                                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:118: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
 <inserted text> 
                 $
-l.118 	\caption{Traffic_Control_Pie}
+l.144 	\caption{Traffic Control_Pie}
                                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:118: Missing } inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
 <inserted text> 
-                }
-l.118 	\caption{Traffic_Control_Pie}
+                $
+l.144 	\caption{Traffic Control_Pie}
                                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-<Numerical_Hist.png, id=48, 405.31425pt x 362.5545pt>
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
+<inserted text> 
+                $
+l.144 	\caption{Traffic Control_Pie}
+                                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Numerical_Hist.png, id=52, 405.31425pt x 362.5545pt>
 File: Numerical_Hist.png Graphic file (type png)
 <use Numerical_Hist.png>
-Package pdftex.def Info: Numerical_Hist.png  used on input line 123.
+Package pdftex.def Info: Numerical_Hist.png  used on input line 152.
 (pdftex.def)             Requested size: 252.0pt x 225.41212pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<k_mode_elbow.png, id=49, 440.24475pt x 302.3295pt>
+[2 <./Knime_Workflow.png> <./Chicago_Column.png> <./TOP_DRIVER_PIE.png>]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+
+Overfull \vbox (2.3486pt too high) has occurred while \output is active []
+
+<Chi Square.png, id=65, 386.6445pt x 226.446pt>
+File: Chi Square.png Graphic file (type png)
+<use Chi Square.png>
+Package pdftex.def Info: Chi Square.png  used on input line 165.
+(pdftex.def)             Requested size: 252.0pt x 147.58896pt.
+<Model_summary.png, id=66, 652.23676pt x 245.11575pt>
+File: Model_summary.png Graphic file (type png)
+<use Model_summary.png>
+Package pdftex.def Info: Model_summary.png  used on input line 176.
+(pdftex.def)             Requested size: 252.0pt x 94.70085pt.
+ [3 <./TOP_WEATHER_CONDITION_PIE.png> <./Traffic_Control_Pie.png> <./Numerical_Hist.png> <./Chi Square.png> <./Model_summary.png>]
+<k_mode_elbow.png, id=84, 440.24475pt x 302.3295pt>
 File: k_mode_elbow.png Graphic file (type png)
 <use k_mode_elbow.png>
-Package pdftex.def Info: k_mode_elbow.png  used on input line 135.
+Package pdftex.def Info: k_mode_elbow.png  used on input line 189.
 (pdftex.def)             Requested size: 252.0pt x 173.05847pt.
-<KPrototype_Elbow.png, id=50, 599.23875pt x 290.88675pt>
+<Kmode_Percent_Alloc.png, id=85, 342.078pt x 222.8325pt>
+File: Kmode_Percent_Alloc.png Graphic file (type png)
+<use Kmode_Percent_Alloc.png>
+Package pdftex.def Info: Kmode_Percent_Alloc.png  used on input line 195.
+(pdftex.def)             Requested size: 252.0pt x 164.15903pt.
+<kmeans_num_elbow.png, id=86, 352.31625pt x 280.04625pt>
+File: kmeans_num_elbow.png Graphic file (type png)
+<use kmeans_num_elbow.png>
+Package pdftex.def Info: kmeans_num_elbow.png  used on input line 210.
+(pdftex.def)             Requested size: 252.0pt x 200.30846pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<KMEAN_Num_PostedSpeed.png, id=87, 452.892pt x 431.211pt>
+File: KMEAN_Num_PostedSpeed.png Graphic file (type png)
+<use KMEAN_Num_PostedSpeed.png>
+Package pdftex.def Info: KMEAN_Num_PostedSpeed.png  used on input line 217.
+(pdftex.def)             Requested size: 252.0pt x 239.93027pt.
+<GMM_Clutering.png, id=88, 467.94826pt x 305.34074pt>
+File: GMM_Clutering.png Graphic file (type png)
+<use GMM_Clutering.png>
+Package pdftex.def Info: GMM_Clutering.png  used on input line 227.
+(pdftex.def)             Requested size: 252.0pt x 164.43427pt.
+[4 <./k_mode_elbow.png> <./Kmode_Percent_Alloc.png> <./kmeans_num_elbow.png> <./KMEAN_Num_PostedSpeed.png>]
+<GMM_Percent_Results.png, id=101, 581.7735pt x 410.7345pt>
+File: GMM_Percent_Results.png Graphic file (type png)
+<use GMM_Percent_Results.png>
+Package pdftex.def Info: GMM_Percent_Results.png  used on input line 235.
+(pdftex.def)             Requested size: 252.0pt x 177.90971pt.
+<EP_Finder.png, id=102, 359.54324pt x 280.04625pt>
+File: EP_Finder.png Graphic file (type png)
+<use EP_Finder.png>
+Package pdftex.def Info: EP_Finder.png  used on input line 246.
+(pdftex.def)             Requested size: 252.0pt x 196.28741pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<DB_Cat.png, id=103, 463.7325pt x 397.485pt>
+File: DB_Cat.png Graphic file (type png)
+<use DB_Cat.png>
+Package pdftex.def Info: DB_Cat.png  used on input line 253.
+(pdftex.def)             Requested size: 252.0pt x 216.00336pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<KPrototype_Elbow.png, id=104, 599.23875pt x 290.88675pt>
 File: KPrototype_Elbow.png Graphic file (type png)
 <use KPrototype_Elbow.png>
-Package pdftex.def Info: KPrototype_Elbow.png  used on input line 141.
+Package pdftex.def Info: KPrototype_Elbow.png  used on input line 267.
 (pdftex.def)             Requested size: 252.0pt x 122.32695pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chi Square.png, id=51, 386.6445pt x 226.446pt>
-File: Chi Square.png Graphic file (type png)
-<use Chi Square.png>
-Package pdftex.def Info: Chi Square.png  used on input line 149.
-(pdftex.def)             Requested size: 252.0pt x 147.58896pt.
-<KP_Percent_ALL.png, id=52, 546.24075pt x 422.7795pt>
-File: KP_Percent_ALL.png Graphic file (type png)
-<use KP_Percent_ALL.png>
-Package pdftex.def Info: KP_Percent_ALL.png  used on input line 155.
-(pdftex.def)             Requested size: 252.0pt x 195.04216pt.
-[2 <./Chicago_Column.png> <./TOP_WEATHER_CONDITION_PIE.png> <./Traffic_Control_Pie.png> <./Numerical_Hist.png> <./k_mode_elbow.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(Final-Report-TEAM-2.bbl
+[5 <./GMM_Clutering.png> <./GMM_Percent_Results.png> <./EP_Finder.png> <./DB_Cat.png>]
+<Heatmap_KP.png, id=117, 552.26324pt x 422.7795pt>
+File: Heatmap_KP.png Graphic file (type png)
+<use Heatmap_KP.png>
+Package pdftex.def Info: Heatmap_KP.png  used on input line 277.
+(pdftex.def)             Requested size: 252.0pt x 192.91975pt.
+<C1_Heatmap.png, id=118, 359.54324pt x 361.35pt>
+File: C1_Heatmap.png Graphic file (type png)
+<use C1_Heatmap.png>
+Package pdftex.def Info: C1_Heatmap.png  used on input line 332.
+(pdftex.def)             Requested size: 67.20023pt x 87.35985pt.
+<C2_Heatmap.png, id=119, 359.54324pt x 356.532pt>
+File: C2_Heatmap.png Graphic file (type png)
+<use C2_Heatmap.png>
+Package pdftex.def Info: C2_Heatmap.png  used on input line 332.
+(pdftex.def)             Requested size: 67.20023pt x 87.3647pt.
+<C3_Heatmap.png, id=120, 357.13425pt x 353.52075pt>
+File: C3_Heatmap.png Graphic file (type png)
+<use C3_Heatmap.png>
+Package pdftex.def Info: C3_Heatmap.png  used on input line 334.
+(pdftex.def)             Requested size: 67.20227pt x 87.36044pt.
+<C4_Heatmap.png, id=121, 358.33875pt x 356.532pt>
+File: C4_Heatmap.png Graphic file (type png)
+<use C4_Heatmap.png>
+Package pdftex.def Info: C4_Heatmap.png  used on input line 334.
+(pdftex.def)             Requested size: 67.19928pt x 87.3647pt.
+ [6 <./KPrototype_Elbow.png> <./Heatmap_KP.png> <./C1_Heatmap.png> <./C2_Heatmap.png> <./C3_Heatmap.png> <./C4_Heatmap.png>] (Final-Report-TEAM-2.bbl
 
 Final-Report-TEAM-2.bbl:24: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -820,66 +967,48 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:179: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:356: Missing $ inserted.
 <inserted text> 
                 $
-l.179 4) https://scikit-learn.org/stable/auto_
+l.356 4) https://scikit-learn.org/stable/auto_
                                               examples/cluster/plot_dbscan.h...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:181: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: Missing $ inserted.
 <inserted text> 
                 $
-l.181 
-      
+l.361 \end{document}
+                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: Missing } inserted.
+<inserted text> 
+                }
+l.361 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 1) https://scottmduda.medium.com/categorical-clustering-
+
+Overfull \hbox (8.19029pt too wide) in paragraph at lines 350--361
+ \OML/cmm/m/it/10 ==geopandas:org=en=stable=docs=user[]uide=mapping:html 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 of-pittsburgh-car-accidents-using-k-modes-7c842cc15d87
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 2) https://data.cityofchicago.org/Transportation/Traffic-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 Crashes-Crashes/85ca-t3if
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 3) https://www.freecodecamp.org/news/8-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 clustering-algorithms-in-machine-learning-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 that-all-data-scientists-should-know/
- []
-
-
-Overfull \hbox (45.81483pt too wide) in paragraph at lines 176--181
-\OT1/ptm/m/n/10 4) https://scikit-learn.org/stable/auto$[]\OML/cmm/m/it/10 xamples=cluster=plot[]bscan:html
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
-
- []
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.361 \end{document}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 
 ** Conference Paper **
@@ -892,7 +1021,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./KPrototype_Elbow.png> <./Chi Square.png> <./KP_Percent_ALL.png>] (Final-Report-TEAM-2.aux)
+[7
+
+]
+
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: LaTeX Error: \begin{center} on input line 231 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(Final-Report-TEAM-2.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
@@ -908,20 +1053,24 @@ Package rerunfilecheck Warning: File `Final-Report-TEAM-2.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Final-Report-TEAM-2.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7B7F43567FCCD5A4116281649DDA906E;1102.
- ) 
+(rerunfilecheck)             After:  79C270AD6F30AB0E8D4529BD8164CF08;1261.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 231 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 24200 strings out of 474718
- 451893 string characters out of 5748457
- 1948036 words of memory out of 5000000
- 45816 multiletter control sequences out of 15000+600000
- 597762 words of font info for 119 fonts, out of 8000000 for 9000
+ 25765 strings out of 474718
+ 483375 string characters out of 5748457
+ 1943036 words of memory out of 5000000
+ 47354 multiletter control sequences out of 15000+600000
+ 595574 words of font info for 110 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,11n,103p,776b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,103p,1326b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final-Report-TEAM-2.pdf (3 pages, 436170 bytes).
+Output written on Final-Report-TEAM-2.pdf (7 pages, 1165488 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
