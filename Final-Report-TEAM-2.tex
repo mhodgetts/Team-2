@@ -31,6 +31,14 @@
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage[underline=true]{pgf-umlsd}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\newlength{\subfigwidth}
+\setlength{\subfigwidth}{50mm}
+
+
 \newcommand{\tabincell}[2]
 {\begin{tabular}
 		{@{}#1@{}}#2\end{tabular}}
@@ -75,6 +83,14 @@ Practice as a team to analyse unsupervised data by exploring various clustering 
 \section{Introduction}
 Utilizing two datasets from Chicago Department website (Crashes and People related to Crashes), we like to find areas/neighborhoods within the city that have different characteristics in terms of the attributes available.  Dataset is large (750K rows) so we decided to look at only 2 years,i.e. 2021 and 2022 which reduces the row count to about 250K.  There is a good amount of prep to get data suitable for cluster analysis (ETL, Hot Encoding, data cleanup)
 We tried 5 different cluster methods with varying results.  e'll give some brief description of each method and its pros and cons for this particular data set.  We will illustrate some of the main differences these assigned clusters present. Provide a summary of each cluster characteristics to illustrate the main differences between them.  
+
+Figure 1 illustrates Chicago Heatmap of Crashes by Zip code.  Hade to use partial data since the original data had no zip for the crashes so had to use Nomatin to extract in python but there a limitation on how many you can search without further payment.  You can see that the majority of the crashes are in the lower half of the city.
+
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{Chicago Heatmap for Crashes by Zipcode.png}
+	\caption{Chicago Heatmap for Crashes by Zipcode}
+	\label{fig: Chicago Heatmap for Crashes by Zipcode}
+ \end{figure}
 
 \section{Related Work}
 There are many examples on how clustering solves problems in various business use cases.  Segmentation analysis, anomoly detection and a form of classification are some of the use cases. There are also Deep Learning techniques that we could have explored but we ran out of time.  The analysis here could be useful to identify hot areas of accidents due to poor signage, road conditions, and other conditions that could be improved to reduce accidents or injuries in the Chicago area.  Practicing how to get meaningful insights is essential in the business world.  Also, knowledge of mapping techniques or illustrating the clusters using coordinates or zip codes would be useful.  We are deficient in this area and had spent endless hours trying to learn shapely files and GEO methods to show how the car accidents distributed across the Chicago area.  It seems you can have a semester class on mapping techniques alone.
@@ -263,7 +279,7 @@ Below is a partial view of the KP Heatmap for the 4 clusters
 \begin{center} 
 	\textbf{Key Cluster Finding} 
 	\end{center}
-	
+
 Cluster 1
 -In general 1 has the lowest occurance of crash attributes
 -lowest occurance of any crash damage level
@@ -299,12 +315,32 @@ Cluster 4
 -Overindex for follow to closely crash type
 -Overindex for months 7-12
 
+\begin{figure}[!h]
+	\includegraphics[width=\linewidth]{C1_Heatmap.png}
+	\caption{C1 Heatmap (Sampling View)}
+	\label{fig: C1 Heatmap}
+ \end{figure}
 
+ \begin{figure}[!h]
+	\includegraphics[width=\linewidth]{C2_Heatmap.png}
+	\caption{C2 Heatmap (Sampling View)}
+	\label{fig: C2 Heatmap}
+ \end{figure}
+
+ \begin{figure}[!h]
+	\includegraphics[width=\linewidth]{C3_Heatmap.png}
+	\caption{C3 Heatmap (Sampling View)}
+	\label{fig: C3 Heatmap}
+ \end{figure}
+
+ \begin{figure}[!h]
+	\includegraphics[width=\linewidth]{C4_Heatmap.png}
+	\caption{C4 Heatmap (Sampling View)}
+	\label{fig: C4 Heatmap}
+ \end{figure}
 
 \section{Future Directions}
-We still need to try other methods and see if the allocations are significantly different.  We'll describe each cluster characteristics in more detail.
-We like to show so mapping features of how the clusters map over Chicago but find this difficult so far to accomplish.  There another method call Squeezer which can be used with mixed data but has little documentaion.  Deep learning techniques utilaing autoencoders can be examined.  We'll add to this section for our final report.  Ho to assess cluster info could be ahot topic
-jkjfadfkafjkdfjkajfa;l
+There are Deep Learning techniques that we noticed when we researching other methods but we needed more time to actually purue it.  One deep learning application was Unsupervised Deep Embedding for Clustering (DEC).  There a need to better evaluate cluster information in terms of what is the cluster characteristics.  A automated evaluation would be useful, we ued percent allocation as a meausure but what other methods could be standardized.  There another method for mixed data called Squeezer which can be used with mixed data but has little documentaion.  Deep learning techniques utilaing autoencoders can be examined. 
 \section{Conclusions}
 We'll add our conclusions at the final report
  
