@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  10 DEC 2023 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  10 DEC 2023 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,26 +967,26 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:356: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:357: Missing $ inserted.
 <inserted text> 
                 $
-l.356 4) https://scikit-learn.org/stable/auto_
+l.357 4) https://scikit-learn.org/stable/auto_
                                               examples/cluster/plot_dbscan.h...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: Missing $ inserted.
 <inserted text> 
                 $
-l.361 \end{document}
+l.362 \end{document}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: Missing } inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: Missing } inserted.
 <inserted text> 
                 }
-l.361 \end{document}
+l.362 \end{document}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -995,14 +995,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (8.19029pt too wide) in paragraph at lines 350--361
+Overfull \hbox (8.19029pt too wide) in paragraph at lines 351--362
  \OML/cmm/m/it/10 ==geopandas:org=en=stable=docs=user[]uide=mapping:html 
  []
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: Extra }, or forgotten \endgroup.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: Extra }, or forgotten \endgroup.
 \@par ... \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.361 \end{document}
+l.362 \end{document}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1025,13 +1025,13 @@ Before submitting the final camera ready copy, remember to:
 
 ]
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:361: LaTeX Error: \begin{center} on input line 231 ended by \end{document}.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: LaTeX Error: \begin{center} on input line 231 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.361 \end{document}
+l.362 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1068,7 +1068,7 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  99i,14n,103p,1326b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final-Report-TEAM-2.pdf (7 pages, 1170141 bytes).
+Output written on Final-Report-TEAM-2.pdf (7 pages, 1170205 bytes).
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)

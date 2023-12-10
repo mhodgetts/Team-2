@@ -1,12 +1,12 @@
 # Fdb version 4
 ["bibtex Final-Report-TEAM-2"] 0 "Final-Report-TEAM-2.aux" "Final-Report-TEAM-2.bbl" "Final-Report-TEAM-2" 0 -1
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Final-Report-TEAM-2.aux" 1702219886 6170 1b18a18407be13d29e188e393546d460 "pdflatex"
+  "Final-Report-TEAM-2.aux" 1702230286 6170 1b18a18407be13d29e188e393546d460 "pdflatex"
   (generated)
   "Final-Report-TEAM-2.bbl"
   "Final-Report-TEAM-2.blg"
   (rewritten before read)
-["pdflatex"] 1702219883 "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" "Final-Report-TEAM-2.pdf" "Final-Report-TEAM-2" 1702219887 2
+["pdflatex"] 1702230282 "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" "Final-Report-TEAM-2.pdf" "Final-Report-TEAM-2" 1702230287 2
   "C1_Heatmap.png" 1702219571 66043 834ec0794bedff5d340bc9c63b3855f6 ""
   "C2_Heatmap.png" 1702150675 65212 b45efd6f12ec9192c1e0dc7766534d63 ""
   "C3_Heatmap.png" 1702219823 67463 71d68c5be9d347941aee58646c817406 ""
@@ -198,10 +198,10 @@
   "Chicago_Column.png" 1699469665 52254 168d9d29eeba79325e82cb236ec153df ""
   "DB_Cat.png" 1701915464 81121 d518ac67c01b7b6898331e98951d0c5c ""
   "EP_Finder.png" 1701913835 31974 4e86428cbbfa1ab09ee8091000f0f9c6 ""
-  "Final-Report-TEAM-2.aux" 1702219886 6170 1b18a18407be13d29e188e393546d460 "pdflatex"
+  "Final-Report-TEAM-2.aux" 1702230286 6170 1b18a18407be13d29e188e393546d460 "pdflatex"
   "Final-Report-TEAM-2.bbl" 1701619965 901 628a2a8c68e066122d1514411e0b8455 "bibtex Final-Report-TEAM-2"
-  "Final-Report-TEAM-2.out" 1702219886 1261 79c270ad6f30ab0e8d4529bd8164cf08 "pdflatex"
-  "Final-Report-TEAM-2.tex" 1702219875 20946 5b95bd251d053bce1d90fdd51babb270 ""
+  "Final-Report-TEAM-2.out" 1702230286 1261 79c270ad6f30ab0e8d4529bd8164cf08 "pdflatex"
+  "Final-Report-TEAM-2.tex" 1702230275 21013 2b85c1563fb29734aff39f69f40e9bc3 ""
   "GMM_Clutering.png" 1699491802 43799 7937ec0dfe55d05a5495c7765f0cc62d ""
   "GMM_Percent_Results.png" 1701962266 98262 b3cbed80e3bac39baf8766fb5157438c ""
   "Heatmap_KP.png" 1701821254 140062 46f69a217cfbbf7a267c6b5466e54e95 ""
@@ -215,7 +215,7 @@
   "TOP_WEATHER_CONDITION_PIE.png" 1701611906 74639 c182a66cefae375945f357fd5b78f189 ""
   "Traffic_Control_Pie.png" 1701611500 56676 e479339410bcd1197a841a9fa6e813da ""
   "Zip_pop_map.png" 1702219232 64621 f417988224cd2690995feb6e51f8bd31 ""
-  "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" 1702219875 20946 5b95bd251d053bce1d90fdd51babb270 ""
+  "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" 1702230275 21013 2b85c1563fb29734aff39f69f40e9bc3 ""
   "k_mode_elbow.png" 1699574639 34331 4665d92fb702e7c190e3e767a899d0e5 ""
   "kmeans_num_elbow.png" 1701964292 32419 1613d007cd69c0da9766bd6346858087 ""
   (generated)
