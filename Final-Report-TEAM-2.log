@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  9 DEC 2023 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  10 DEC 2023 09:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,11 +757,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Chicago Heatmap for Crashes by Zipcode.png, id=30, 359.54324pt x 340.8735pt>
-File: Chicago Heatmap for Crashes by Zipcode.png Graphic file (type png)
-<use Chicago Heatmap for Crashes by Zipcode.png>
-Package pdftex.def Info: Chicago Heatmap for Crashes by Zipcode.png  used on input line 93.
-(pdftex.def)             Requested size: 252.0pt x 238.92189pt.
+<Zip_pop_map.png, id=30, 360.1455pt x 353.52075pt>
+File: Zip_pop_map.png Graphic file (type png)
+<use Zip_pop_map.png>
+Package pdftex.def Info: Zip_pop_map.png  used on input line 93.
+(pdftex.def)             Requested size: 252.0pt x 247.36574pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -769,7 +769,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1{C:/Users/mhodg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./Chicago Heatmap for Crashes by Zipcode.png>]
+ <./Zip_pop_map.png>]
 <Knime_Workflow.png, id=47, 747.9945pt x 295.70474pt>
 File: Knime_Workflow.png Graphic file (type png)
 <use Knime_Workflow.png>
@@ -933,26 +933,26 @@ File: Heatmap_KP.png Graphic file (type png)
 <use Heatmap_KP.png>
 Package pdftex.def Info: Heatmap_KP.png  used on input line 277.
 (pdftex.def)             Requested size: 252.0pt x 192.91975pt.
-<C1_Heatmap.png, id=118, 359.54324pt x 361.35pt>
+<C1_Heatmap.png, id=118, 358.33875pt x 361.95226pt>
 File: C1_Heatmap.png Graphic file (type png)
 <use C1_Heatmap.png>
 Package pdftex.def Info: C1_Heatmap.png  used on input line 332.
-(pdftex.def)             Requested size: 67.20023pt x 87.35985pt.
+(pdftex.def)             Requested size: 67.19928pt x 87.36185pt.
 <C2_Heatmap.png, id=119, 359.54324pt x 356.532pt>
 File: C2_Heatmap.png Graphic file (type png)
 <use C2_Heatmap.png>
 Package pdftex.def Info: C2_Heatmap.png  used on input line 332.
 (pdftex.def)             Requested size: 67.20023pt x 87.3647pt.
-<C3_Heatmap.png, id=120, 357.13425pt x 353.52075pt>
+<C3_Heatmap.png, id=120, 361.35pt x 359.54324pt>
 File: C3_Heatmap.png Graphic file (type png)
 <use C3_Heatmap.png>
 Package pdftex.def Info: C3_Heatmap.png  used on input line 334.
-(pdftex.def)             Requested size: 67.20227pt x 87.36044pt.
-<C4_Heatmap.png, id=121, 358.33875pt x 356.532pt>
+(pdftex.def)             Requested size: 67.20158pt x 87.36194pt.
+<C4_Heatmap.png, id=121, 357.13425pt x 354.123pt>
 File: C4_Heatmap.png Graphic file (type png)
 <use C4_Heatmap.png>
 Package pdftex.def Info: C4_Heatmap.png  used on input line 334.
-(pdftex.def)             Requested size: 67.19928pt x 87.3647pt.
+(pdftex.def)             Requested size: 67.20227pt x 87.36337pt.
  [6 <./KPrototype_Elbow.png> <./Heatmap_KP.png> <./C1_Heatmap.png> <./C2_Heatmap.png> <./C3_Heatmap.png> <./C4_Heatmap.png>] (Final-Report-TEAM-2.bbl
 
 Final-Report-TEAM-2.bbl:24: LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1061,14 +1061,14 @@ Package rerunfilecheck Info: Checksums for `Final-Report-TEAM-2.out':
 ### bottom level 
 Here is how much of TeX's memory you used:
  25765 strings out of 474718
- 483375 string characters out of 5748457
+ 483186 string characters out of 5748457
  1943036 words of memory out of 5000000
  47354 multiletter control sequences out of 15000+600000
  595574 words of font info for 110 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  99i,14n,103p,1326b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final-Report-TEAM-2.pdf (7 pages, 1165488 bytes).
+Output written on Final-Report-TEAM-2.pdf (7 pages, 1170141 bytes).
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
