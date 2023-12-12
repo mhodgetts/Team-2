@@ -1,17 +1,17 @@
 # Fdb version 4
 ["bibtex Final-Report-TEAM-2"] 0 "Final-Report-TEAM-2.aux" "Final-Report-TEAM-2.bbl" "Final-Report-TEAM-2" 0 -1
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Final-Report-TEAM-2.aux" 1702409808 6170 9977c3c458769af06f2378bd5c4a8e7b "pdflatex"
+  "Final-Report-TEAM-2.aux" 1702417343 6172 3ca800749b3662ff7c372c93954fc967 "pdflatex"
   (generated)
   "Final-Report-TEAM-2.bbl"
   "Final-Report-TEAM-2.blg"
   (rewritten before read)
-["pdflatex"] 1702409804 "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" "Final-Report-TEAM-2.pdf" "Final-Report-TEAM-2" 1702409809 2
+["pdflatex"] 1702417339 "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" "Final-Report-TEAM-2.pdf" "Final-Report-TEAM-2" 1702417344 2
   "C1_Heatmap.png" 1702219571 66043 834ec0794bedff5d340bc9c63b3855f6 ""
   "C2_Heatmap.png" 1702150675 65212 b45efd6f12ec9192c1e0dc7766534d63 ""
   "C3_Heatmap.png" 1702219823 67463 71d68c5be9d347941aee58646c817406 ""
   "C4_Heatmap.png" 1702219332 64788 dc7073cccf1c397309d8517b00cf61d8 ""
-  "C:/Users/mhodg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702156806 82507 a9eef8696c92627b87e9975edea03b2a ""
+  "C:/Users/mhodg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702416571 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/mhodg/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1698937085 24203716 1d32b2ffb76afb3c7468497bc7eeb072 ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136790254 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -148,6 +148,7 @@
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf.sty" 1623003186 4393 47f27fd4d95928d20b1885ba77de11d2 ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
+  "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/footmisc/footmisc.sty" 1689583575 21399 e9fa1517a82f349507e998594ef20b82 ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/pdftex.def" 1663918690 19448 1e988b341dda20961a6b931bcde55519 ""
@@ -186,6 +187,7 @@
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty" 1673775190 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673775190 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
+  "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/ragged2e/ragged2e.sty" 1687525147 10085 3dececaeed388e31285c366e124c0c4e ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/mhodg/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
@@ -198,10 +200,10 @@
   "Chicago_Column.png" 1699469665 52254 168d9d29eeba79325e82cb236ec153df ""
   "DB_Cat.png" 1701915464 81121 d518ac67c01b7b6898331e98951d0c5c ""
   "EP_Finder.png" 1701913835 31974 4e86428cbbfa1ab09ee8091000f0f9c6 ""
-  "Final-Report-TEAM-2.aux" 1702409808 6170 9977c3c458769af06f2378bd5c4a8e7b "pdflatex"
+  "Final-Report-TEAM-2.aux" 1702417343 6172 3ca800749b3662ff7c372c93954fc967 "pdflatex"
   "Final-Report-TEAM-2.bbl" 1701619965 901 628a2a8c68e066122d1514411e0b8455 "bibtex Final-Report-TEAM-2"
-  "Final-Report-TEAM-2.out" 1702409808 1261 79c270ad6f30ab0e8d4529bd8164cf08 "pdflatex"
-  "Final-Report-TEAM-2.tex" 1702409797 21046 20855f1d24f55f6e281c589f67484dc8 ""
+  "Final-Report-TEAM-2.out" 1702417343 1261 79c270ad6f30ab0e8d4529bd8164cf08 "pdflatex"
+  "Final-Report-TEAM-2.tex" 1702417333 21551 048a9efa027a0a92ebe88def1e933517 ""
   "GMM_Clutering.png" 1699491802 43799 7937ec0dfe55d05a5495c7765f0cc62d ""
   "GMM_Percent_Results.png" 1701962266 98262 b3cbed80e3bac39baf8766fb5157438c ""
   "Heatmap_KP.png" 1701821254 140062 46f69a217cfbbf7a267c6b5466e54e95 ""
@@ -215,7 +217,7 @@
   "TOP_WEATHER_CONDITION_PIE.png" 1701611906 74639 c182a66cefae375945f357fd5b78f189 ""
   "Traffic_Control_Pie.png" 1701611500 56676 e479339410bcd1197a841a9fa6e813da ""
   "Zip_pop_map.png" 1702219232 64621 f417988224cd2690995feb6e51f8bd31 ""
-  "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" 1702409797 21046 20855f1d24f55f6e281c589f67484dc8 ""
+  "c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex" 1702417333 21551 048a9efa027a0a92ebe88def1e933517 ""
   "k_mode_elbow.png" 1699574639 34331 4665d92fb702e7c190e3e767a899d0e5 ""
   "kmeans_num_elbow.png" 1701964292 32419 1613d007cd69c0da9766bd6346858087 ""
   (generated)

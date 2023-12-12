@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  12 DEC 2023 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  12 DEC 2023 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -103,6 +103,34 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen163
 \c@IEEEbiography=\count266
 \@IEEEtranrubishbin=\box52
+) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+ (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks18
+\footnotemargin=\dimen164
+\@outputbox@depth=\dimen165
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
+)
+\CenteringLeftskip=\skip51
+\RaggedLeftLeftskip=\skip52
+\RaggedRightLeftskip=\skip53
+\CenteringRightskip=\skip54
+\RaggedLeftRightskip=\skip55
+\RaggedRightRightskip=\skip56
+\CenteringParfillskip=\skip57
+\RaggedLeftParfillskip=\skip58
+\RaggedRightParfillskip=\skip59
+\JustifyingParfillskip=\skip60
+\CenteringParindent=\skip61
+\RaggedLeftParindent=\skip62
+\RaggedRightParindent=\skip63
+\JustifyingParindent=\skip64
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -110,7 +138,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks19
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -122,16 +150,16 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen164
-\Gin@req@width=\dimen165
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip51
-\subfigcapskip=\skip52
-\subfigcaptopadj=\dimen166
-\subfigbottomskip=\skip53
-\subfigcapmargin=\dimen167
-\subfiglabelskip=\skip54
+\subfigtopskip=\skip65
+\subfigcapskip=\skip66
+\subfigcaptopadj=\dimen168
+\subfigbottomskip=\skip67
+\subfigcapmargin=\dimen169
+\subfiglabelskip=\skip68
 \c@subfigure=\count267
 \c@lofdepth=\count268
 \c@subtable=\count269
@@ -141,8 +169,8 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 * Local config file subfigure.cfg used *
 ****************************************
 (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
-\subfig@top=\skip55
-\subfig@bottom=\skip56
+\subfig@top=\skip69
+\subfig@bottom=\skip70
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
@@ -175,18 +203,18 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip57
+\@mathmargin=\skip71
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen168
+\@emptytoks=\toks20
+\ex@=\dimen170
 )) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen169
+\pmbraise@=\dimen171
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
@@ -207,7 +235,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen170
+\big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count276
@@ -220,21 +248,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip17
 \c@parentequation=\count278
 \dspbrk@lvl=\count279
-\tag@help=\toks20
+\tag@help=\toks21
 \row@=\count280
 \column@=\count281
 \maxfields@=\count282
-\andhelp@=\toks21
-\eqnshift@=\dimen171
-\alignsep@=\dimen172
-\tagshift@=\dimen173
-\tagwidth@=\dimen174
-\totwidth@=\dimen175
-\lineht@=\dimen176
-\@envbody=\toks22
-\multlinegap=\skip58
-\multlinetaggap=\skip59
-\mathdisplay@stack=\toks23
+\andhelp@=\toks22
+\eqnshift@=\dimen173
+\alignsep@=\dimen174
+\tagshift@=\dimen175
+\tagwidth@=\dimen176
+\totwidth@=\dimen177
+\lineht@=\dimen178
+\@envbody=\toks23
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
@@ -242,14 +270,14 @@ Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environ
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count283
-\float@exts=\toks24
+\float@exts=\toks25
 \float@box=\box55
-\@float@everytoks=\toks25
+\@float@everytoks=\toks26
 \@floatcapt=\box56
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks26
+\@float@every@algorithm=\toks27
 \c@algorithm=\count284
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
@@ -260,13 +288,13 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count285
 \c@ALG@rem=\count286
 \c@ALG@nested=\count287
-\ALG@tlm=\skip60
-\ALG@thistlm=\skip61
+\ALG@tlm=\skip74
+\ALG@thistlm=\skip75
 \c@ALG@Lnr=\count288
 \c@ALG@blocknr=\count289
 \c@ALG@storecount=\count290
 \c@ALG@tmpcounter=\count291
-\ALG@tmplength=\skip62
+\ALG@tmplength=\skip76
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
@@ -280,28 +308,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks27
-\thm@bodyfont=\toks28
-\thm@headfont=\toks29
-\thm@notefont=\toks30
-\thm@headpunct=\toks31
-\thm@preskip=\skip63
-\thm@postskip=\skip64
-\thm@headsep=\skip65
-\dth@everypar=\toks32
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip77
+\thm@postskip=\skip78
+\thm@headsep=\skip79
+\dth@everypar=\toks33
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen177
-\epsfysize=\dimen178
+\epsfxsize=\dimen179
+\epsfysize=\dimen180
 )
 \c@theorem=\count292
 \c@mydef=\count293
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip66
+\multirow@colwidth=\skip80
 \multirow@cntb=\count294
-\multirow@dima=\skip67
-\bigstrutjot=\dimen179
+\multirow@dima=\skip81
+\bigstrutjot=\dimen181
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -310,26 +338,26 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen180
+\col@sep=\dimen182
 \ar@mcellbox=\box57
-\extrarowheight=\dimen181
-\NC@list=\toks33
-\extratabsurround=\skip68
-\backup@length=\skip69
+\extrarowheight=\dimen183
+\NC@list=\toks34
+\extratabsurround=\skip82
+\backup@length=\skip83
 \ar@cellbox=\box58
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count295
 \lst@gtempboxa=\box59
-\lst@token=\toks34
+\lst@token=\toks35
 \lst@length=\count296
-\lst@currlwidth=\dimen182
+\lst@currlwidth=\dimen184
 \lst@column=\count297
 \lst@pos=\count298
-\lst@lostspace=\dimen183
-\lst@width=\dimen184
+\lst@lostspace=\dimen185
+\lst@width=\dimen186
 \lst@newlines=\count299
 \lst@lineno=\count300
-\lst@maxwidth=\dimen185
+\lst@maxwidth=\dimen187
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count301
@@ -361,7 +389,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count304
 )
-\@linkdim=\dimen186
+\@linkdim=\dimen188
 \Hy@linkcounter=\count305
 \Hy@pagecounter=\count306
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
@@ -386,15 +414,15 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4435.
 \c@Hy@tempcnt=\count308
 LaTeX Info: Redefining \url on input line 4773.
-\XeTeXLinkMargin=\dimen187
+\XeTeXLinkMargin=\dimen189
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count309
-\Field@Width=\dimen188
-\Fld@charsize=\dimen189
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
 Package hyperref Info: Hyper figures OFF on input line 6052.
 Package hyperref Info: Link nesting OFF on input line 6057.
 Package hyperref Info: Hyper index ON on input line 6060.
@@ -426,13 +454,13 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip84
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf-umlsd\pgf-umlsd.sty
 Package: pgf-umlsd 2011/07/27 v0.6 Some LaTeX macros for UML Sequence Diagrams.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks35
-\pgfutil@tempdima=\dimen190
-\pgfutil@tempdimb=\dimen191
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen192
+\pgfutil@tempdimb=\dimen193
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box61
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -442,30 +470,30 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks38
+\pgfkeys@tmptoks=\toks39
 ))
-\pgf@x=\dimen192
-\pgf@y=\dimen193
-\pgf@xa=\dimen194
-\pgf@ya=\dimen195
-\pgf@xb=\dimen196
-\pgf@yb=\dimen197
-\pgf@xc=\dimen198
-\pgf@yc=\dimen199
-\pgf@xd=\dimen256
-\pgf@yd=\dimen257
+\pgf@x=\dimen194
+\pgf@y=\dimen195
+\pgf@xa=\dimen196
+\pgf@ya=\dimen197
+\pgf@xb=\dimen198
+\pgf@yb=\dimen199
+\pgf@xc=\dimen256
+\pgf@yc=\dimen257
+\pgf@xd=\dimen258
+\pgf@yd=\dimen259
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count315
 \c@pgf@countb=\count316
 \c@pgf@countc=\count317
 \c@pgf@countd=\count318
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
 \pgf@sys@id@count=\count319
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -501,38 +529,38 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen258
+\pgfmath@dimen=\dimen260
 \pgfmath@count=\count322
 \pgfmath@box=\box62
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count323
 )) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen259
-\pgf@picmaxx=\dimen260
-\pgf@picminy=\dimen261
-\pgf@picmaxy=\dimen262
-\pgf@pathminx=\dimen263
-\pgf@pathmaxx=\dimen264
-\pgf@pathminy=\dimen265
-\pgf@pathmaxy=\dimen266
-\pgf@xx=\dimen267
-\pgf@xy=\dimen268
-\pgf@yx=\dimen269
-\pgf@yy=\dimen270
-\pgf@zx=\dimen271
-\pgf@zy=\dimen272
+\pgf@picminx=\dimen261
+\pgf@picmaxx=\dimen262
+\pgf@picminy=\dimen263
+\pgf@picmaxy=\dimen264
+\pgf@pathminx=\dimen265
+\pgf@pathmaxx=\dimen266
+\pgf@pathminy=\dimen267
+\pgf@pathmaxy=\dimen268
+\pgf@xx=\dimen269
+\pgf@xy=\dimen270
+\pgf@yx=\dimen271
+\pgf@yy=\dimen272
+\pgf@zx=\dimen273
+\pgf@zy=\dimen274
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen273
-\pgf@path@lasty=\dimen274
+\pgf@path@lastx=\dimen275
+\pgf@path@lasty=\dimen276
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen275
-\pgf@shorten@start@additional=\dimen276
+\pgf@shorten@end@additional=\dimen277
+\pgf@shorten@start@additional=\dimen278
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box63
@@ -541,12 +569,12 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picture@serial@count=\count324
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen277
+\pgflinewidth=\dimen279
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen278
-\pgf@pt@y=\dimen279
-\pgf@pt@temp=\dimen280
+\pgf@pt@x=\dimen280
+\pgf@pt@y=\dimen281
+\pgf@pt@temp=\dimen282
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -555,10 +583,10 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen281
+\pgfarrowsep=\dimen283
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen282
+\pgf@max=\dimen284
 \pgf@sys@shading@range@num=\count325
 \pgf@shadingcount=\count326
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
@@ -581,31 +609,31 @@ File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen283
-\pgf@nodesepend=\dimen284
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen285
-\pgffor@skip=\dimen286
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
 )) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count327
-\pgfplotmarksize=\dimen287
+\pgfplotmarksize=\dimen289
 )
-\tikz@lastx=\dimen288
-\tikz@lasty=\dimen289
-\tikz@lastxsaved=\dimen290
-\tikz@lastysaved=\dimen291
-\tikz@lastmovetox=\dimen292
-\tikz@lastmovetoy=\dimen293
-\tikzleveldistance=\dimen294
-\tikzsiblingdistance=\dimen295
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikz@lastmovetox=\dimen294
+\tikz@lastmovetoy=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
 \tikz@figbox=\box68
 \tikz@figbox@bg=\box69
 \tikz@tempbox=\box70
@@ -627,7 +655,7 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen296
+\arrowsize=\dimen298
 )) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
@@ -648,14 +676,14 @@ Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen297
-\captionmargin=\dimen298
-\caption@leftmargin=\dimen299
-\caption@rightmargin=\dimen300
-\caption@width=\dimen301
-\caption@indent=\dimen302
-\caption@parindent=\dimen303
-\caption@hangindent=\dimen304
+\caption@tempdima=\dimen299
+\captionmargin=\dimen300
+\caption@leftmargin=\dimen301
+\caption@rightmargin=\dimen302
+\caption@width=\dimen303
+\caption@indent=\dimen304
+\caption@parindent=\dimen305
+\caption@hangindent=\dimen306
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1175.
@@ -679,25 +707,25 @@ Package subcaption Info: The counter `subtable' was already defined by
 (subcaption)             an unknown document class or package on input line 238.
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen305
-\lightrulewidth=\dimen306
-\cmidrulewidth=\dimen307
-\belowrulesep=\dimen308
-\belowbottomsep=\dimen309
-\aboverulesep=\dimen310
-\abovetopsep=\dimen311
-\cmidrulesep=\dimen312
-\cmidrulekern=\dimen313
-\defaultaddspace=\dimen314
+\heavyrulewidth=\dimen307
+\lightrulewidth=\dimen308
+\cmidrulewidth=\dimen309
+\belowrulesep=\dimen310
+\belowbottomsep=\dimen311
+\aboverulesep=\dimen312
+\abovetopsep=\dimen313
+\cmidrulesep=\dimen314
+\cmidrulekern=\dimen315
+\defaultaddspace=\dimen316
 \@cmidla=\count345
 \@cmidlb=\count346
-\@aboverulesep=\dimen315
-\@belowrulesep=\dimen316
+\@aboverulesep=\dimen317
+\@belowrulesep=\dimen318
 \@thisruleclass=\count347
 \@lastruleclass=\count348
-\@thisrulewidth=\dimen317
+\@thisrulewidth=\dimen319
 )
-\subfigwidth=\skip71
+\subfigwidth=\skip85
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -707,60 +735,61 @@ File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
 ) (Final-Report-TEAM-2.aux)
 \openout1 = `Final-Report-TEAM-2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 -- Lines per column: 56 (exact).
+Package ragged2e Info: ABD: executing \RaggedRight on input line 58.
 (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count350
-\scratchdimen=\dimen318
+\scratchdimen=\dimen320
 \scratchbox=\box73
 \nofMPsegments=\count351
 \nofMParguments=\count352
-\everyMPshowfont=\toks47
+\everyMPshowfont=\toks48
 \MPscratchCnt=\count353
-\MPscratchDim=\dimen319
+\MPscratchDim=\dimen321
 \MPnumerator=\count354
 \makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks48
+\everyMPtoPDFconversion=\toks49
 )
 \c@lstlisting=\count356
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 58.
 \@outlinefile=\write4
 \openout4 = `Final-Report-TEAM-2.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 80.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
  (C:\Users\mhodg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <Zip_pop_map.png, id=30, 360.1455pt x 353.52075pt>
 File: Zip_pop_map.png Graphic file (type png)
 <use Zip_pop_map.png>
-Package pdftex.def Info: Zip_pop_map.png  used on input line 93.
+Package pdftex.def Info: Zip_pop_map.png  used on input line 94.
 (pdftex.def)             Requested size: 252.0pt x 247.36574pt.
 
 
@@ -773,32 +802,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Knime_Workflow.png, id=47, 747.9945pt x 295.70474pt>
 File: Knime_Workflow.png Graphic file (type png)
 <use Knime_Workflow.png>
-Package pdftex.def Info: Knime_Workflow.png  used on input line 109.
+Package pdftex.def Info: Knime_Workflow.png  used on input line 110.
 (pdftex.def)             Requested size: 252.0pt x 99.62231pt.
 
-Underfull \hbox (badness 1546) in paragraph at lines 116--117
-\OT1/ptm/m/n/10 cat-e-gories that added more com-plex-ity so there-fore we
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+ 
  []
 
 <Chicago_Column.png, id=48, 411.33675pt x 284.262pt>
 File: Chicago_Column.png Graphic file (type png)
 <use Chicago_Column.png>
-Package pdftex.def Info: Chicago_Column.png  used on input line 120.
+Package pdftex.def Info: Chicago_Column.png  used on input line 121.
 (pdftex.def)             Requested size: 252.0pt x 174.14993pt.
 <TOP_DRIVER_PIE.png, id=49, 415.5525pt x 263.18324pt>
 File: TOP_DRIVER_PIE.png Graphic file (type png)
 <use TOP_DRIVER_PIE.png>
-Package pdftex.def Info: TOP_DRIVER_PIE.png  used on input line 129.
+Package pdftex.def Info: TOP_DRIVER_PIE.png  used on input line 130.
 (pdftex.def)             Requested size: 252.0pt x 159.59781pt.
 <TOP_WEATHER_CONDITION_PIE.png, id=50, 467.94826pt x 307.74976pt>
 File: TOP_WEATHER_CONDITION_PIE.png Graphic file (type png)
 <use TOP_WEATHER_CONDITION_PIE.png>
-Package pdftex.def Info: TOP_WEATHER_CONDITION_PIE.png  used on input line 136.
+Package pdftex.def Info: TOP_WEATHER_CONDITION_PIE.png  used on input line 137.
 (pdftex.def)             Requested size: 252.0pt x 165.73158pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -806,36 +830,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Traffic_Control_Pie.png, id=51, 431.211pt x 305.34074pt>
 File: Traffic_Control_Pie.png Graphic file (type png)
 <use Traffic_Control_Pie.png>
-Package pdftex.def Info: Traffic_Control_Pie.png  used on input line 143.
+Package pdftex.def Info: Traffic_Control_Pie.png  used on input line 144.
 (pdftex.def)             Requested size: 252.0pt x 178.43958pt.
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.144 	\caption{Traffic Control_Pie}
+l.145 	\caption{Traffic Control_Pie}
                                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.144 	\caption{Traffic Control_Pie}
+l.145 	\caption{Traffic Control_Pie}
                                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.144 	\caption{Traffic Control_Pie}
+l.145 	\caption{Traffic Control_Pie}
                                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:144: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:145: Missing $ inserted.
 <inserted text> 
                 $
-l.144 	\caption{Traffic Control_Pie}
+l.145 	\caption{Traffic Control_Pie}
                                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -846,7 +870,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Numerical_Hist.png, id=52, 405.31425pt x 362.5545pt>
 File: Numerical_Hist.png Graphic file (type png)
 <use Numerical_Hist.png>
-Package pdftex.def Info: Numerical_Hist.png  used on input line 152.
+Package pdftex.def Info: Numerical_Hist.png  used on input line 153.
 (pdftex.def)             Requested size: 252.0pt x 225.41212pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -861,94 +885,120 @@ Overfull \vbox (2.3486pt too high) has occurred while \output is active []
 <Chi Square.png, id=64, 386.6445pt x 226.446pt>
 File: Chi Square.png Graphic file (type png)
 <use Chi Square.png>
-Package pdftex.def Info: Chi Square.png  used on input line 165.
+Package pdftex.def Info: Chi Square.png  used on input line 166.
 (pdftex.def)             Requested size: 252.0pt x 147.58896pt.
 <Model_summary.png, id=65, 652.23676pt x 245.11575pt>
 File: Model_summary.png Graphic file (type png)
 <use Model_summary.png>
-Package pdftex.def Info: Model_summary.png  used on input line 176.
+Package pdftex.def Info: Model_summary.png  used on input line 177.
 (pdftex.def)             Requested size: 252.0pt x 94.70085pt.
- [3 <./TOP_WEATHER_CONDITION_PIE.png> <./Traffic_Control_Pie.png> <./Numerical_Hist.png> <./Chi Square.png> <./Model_summary.png>]
-<k_mode_elbow.png, id=84, 440.24475pt x 302.3295pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./TOP_WEATHER_CONDITION_PIE.png> <./Traffic_Control_Pie.png> <./Numerical_Hist.png> <./Chi Square.png>]
+<k_mode_elbow.png, id=82, 440.24475pt x 302.3295pt>
 File: k_mode_elbow.png Graphic file (type png)
 <use k_mode_elbow.png>
-Package pdftex.def Info: k_mode_elbow.png  used on input line 189.
+Package pdftex.def Info: k_mode_elbow.png  used on input line 190.
 (pdftex.def)             Requested size: 252.0pt x 173.05847pt.
-<Kmode_Percent_Alloc.png, id=85, 342.078pt x 222.8325pt>
+<Kmode_Percent_Alloc.png, id=83, 342.078pt x 222.8325pt>
 File: Kmode_Percent_Alloc.png Graphic file (type png)
 <use Kmode_Percent_Alloc.png>
-Package pdftex.def Info: Kmode_Percent_Alloc.png  used on input line 195.
+Package pdftex.def Info: Kmode_Percent_Alloc.png  used on input line 196.
 (pdftex.def)             Requested size: 252.0pt x 164.15903pt.
-<kmeans_num_elbow.png, id=86, 352.31625pt x 280.04625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<kmeans_num_elbow.png, id=84, 352.31625pt x 280.04625pt>
 File: kmeans_num_elbow.png Graphic file (type png)
 <use kmeans_num_elbow.png>
-Package pdftex.def Info: kmeans_num_elbow.png  used on input line 210.
+Package pdftex.def Info: kmeans_num_elbow.png  used on input line 211.
 (pdftex.def)             Requested size: 252.0pt x 200.30846pt.
-<KMEAN_Num_PostedSpeed.png, id=87, 452.892pt x 431.211pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<KMEAN_Num_PostedSpeed.png, id=85, 452.892pt x 431.211pt>
 File: KMEAN_Num_PostedSpeed.png Graphic file (type png)
 <use KMEAN_Num_PostedSpeed.png>
-Package pdftex.def Info: KMEAN_Num_PostedSpeed.png  used on input line 217.
+Package pdftex.def Info: KMEAN_Num_PostedSpeed.png  used on input line 218.
 (pdftex.def)             Requested size: 252.0pt x 239.93027pt.
-<GMM_Clutering.png, id=88, 467.94826pt x 305.34074pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<GMM_Clutering.png, id=86, 467.94826pt x 305.34074pt>
 File: GMM_Clutering.png Graphic file (type png)
 <use GMM_Clutering.png>
-Package pdftex.def Info: GMM_Clutering.png  used on input line 227.
+Package pdftex.def Info: GMM_Clutering.png  used on input line 228.
 (pdftex.def)             Requested size: 252.0pt x 164.43427pt.
- [4 <./k_mode_elbow.png> <./Kmode_Percent_Alloc.png> <./kmeans_num_elbow.png> <./KMEAN_Num_PostedSpeed.png>]
-<GMM_Percent_Results.png, id=101, 581.7735pt x 410.7345pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<GMM_Percent_Results.png, id=87, 581.7735pt x 410.7345pt>
 File: GMM_Percent_Results.png Graphic file (type png)
 <use GMM_Percent_Results.png>
-Package pdftex.def Info: GMM_Percent_Results.png  used on input line 235.
+Package pdftex.def Info: GMM_Percent_Results.png  used on input line 236.
 (pdftex.def)             Requested size: 252.0pt x 177.90971pt.
-<EP_Finder.png, id=102, 359.54324pt x 280.04625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<EP_Finder.png, id=88, 359.54324pt x 280.04625pt>
 File: EP_Finder.png Graphic file (type png)
 <use EP_Finder.png>
-Package pdftex.def Info: EP_Finder.png  used on input line 246.
+Package pdftex.def Info: EP_Finder.png  used on input line 247.
 (pdftex.def)             Requested size: 252.0pt x 196.28741pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DB_Cat.png, id=103, 463.7325pt x 397.485pt>
+[4 <./Model_summary.png> <./k_mode_elbow.png> <./Kmode_Percent_Alloc.png> <./kmeans_num_elbow.png>]
+<DB_Cat.png, id=101, 463.7325pt x 397.485pt>
 File: DB_Cat.png Graphic file (type png)
 <use DB_Cat.png>
-Package pdftex.def Info: DB_Cat.png  used on input line 253.
+Package pdftex.def Info: DB_Cat.png  used on input line 254.
 (pdftex.def)             Requested size: 252.0pt x 216.00336pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./GMM_Clutering.png> <./GMM_Percent_Results.png> <./EP_Finder.png> <./DB_Cat.png>]
-<KPrototype_Elbow.png, id=116, 599.23875pt x 290.88675pt>
+<KPrototype_Elbow.png, id=102, 599.23875pt x 290.88675pt>
 File: KPrototype_Elbow.png Graphic file (type png)
 <use KPrototype_Elbow.png>
-Package pdftex.def Info: KPrototype_Elbow.png  used on input line 267.
+Package pdftex.def Info: KPrototype_Elbow.png  used on input line 268.
 (pdftex.def)             Requested size: 252.0pt x 122.32695pt.
-<Heatmap_KP.png, id=117, 552.26324pt x 422.7795pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Heatmap_KP.png, id=103, 552.26324pt x 422.7795pt>
 File: Heatmap_KP.png Graphic file (type png)
 <use Heatmap_KP.png>
-Package pdftex.def Info: Heatmap_KP.png  used on input line 277.
+Package pdftex.def Info: Heatmap_KP.png  used on input line 278.
 (pdftex.def)             Requested size: 252.0pt x 192.91975pt.
-<C1_Heatmap.png, id=118, 358.33875pt x 361.95226pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./KMEAN_Num_PostedSpeed.png> <./GMM_Clutering.png> <./GMM_Percent_Results.png> <./EP_Finder.png>]
+<C1_Heatmap.png, id=116, 358.33875pt x 361.95226pt>
 File: C1_Heatmap.png Graphic file (type png)
 <use C1_Heatmap.png>
-Package pdftex.def Info: C1_Heatmap.png  used on input line 332.
+Package pdftex.def Info: C1_Heatmap.png  used on input line 340.
 (pdftex.def)             Requested size: 67.19928pt x 87.36185pt.
-<C2_Heatmap.png, id=119, 359.54324pt x 356.532pt>
+<C2_Heatmap.png, id=117, 359.54324pt x 356.532pt>
 File: C2_Heatmap.png Graphic file (type png)
 <use C2_Heatmap.png>
-Package pdftex.def Info: C2_Heatmap.png  used on input line 332.
+Package pdftex.def Info: C2_Heatmap.png  used on input line 340.
 (pdftex.def)             Requested size: 67.20023pt x 87.3647pt.
-<C3_Heatmap.png, id=120, 361.35pt x 359.54324pt>
+<C3_Heatmap.png, id=118, 361.35pt x 359.54324pt>
 File: C3_Heatmap.png Graphic file (type png)
 <use C3_Heatmap.png>
-Package pdftex.def Info: C3_Heatmap.png  used on input line 334.
+Package pdftex.def Info: C3_Heatmap.png  used on input line 342.
 (pdftex.def)             Requested size: 67.20158pt x 87.36194pt.
-<C4_Heatmap.png, id=121, 357.13425pt x 354.123pt>
+<C4_Heatmap.png, id=119, 357.13425pt x 354.123pt>
 File: C4_Heatmap.png Graphic file (type png)
 <use C4_Heatmap.png>
-Package pdftex.def Info: C4_Heatmap.png  used on input line 334.
+Package pdftex.def Info: C4_Heatmap.png  used on input line 342.
 (pdftex.def)             Requested size: 67.20227pt x 87.36337pt.
- [6 <./KPrototype_Elbow.png> <./Heatmap_KP.png> <./C1_Heatmap.png> <./C2_Heatmap.png> <./C3_Heatmap.png> <./C4_Heatmap.png>] (Final-Report-TEAM-2.bbl
+ [6 <./DB_Cat.png> <./KPrototype_Elbow.png> <./Heatmap_KP.png> <./C1_Heatmap.png> <./C2_Heatmap.png> <./C3_Heatmap.png> <./C4_Heatmap.png>] (Final-Report-TEAM-2.bbl
 
 Final-Report-TEAM-2.bbl:24: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -962,26 +1012,26 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:357: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:365: Missing $ inserted.
 <inserted text> 
                 $
-l.357 4) https://scikit-learn.org/stable/auto_
+l.365 4) https://scikit-learn.org/stable/auto_
                                               examples/cluster/plot_dbscan.h...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: Missing $ inserted.
 <inserted text> 
                 $
-l.362 \end{document}
+l.370 \end{document}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: Missing } inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: Missing } inserted.
 <inserted text> 
                 }
-l.362 \end{document}
+l.370 \end{document}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -990,14 +1040,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (8.19029pt too wide) in paragraph at lines 351--362
+Overfull \hbox (8.19029pt too wide) in paragraph at lines 359--370
  \OML/cmm/m/it/10 ==geopandas:org=en=stable=docs=user[]uide=mapping:html 
  []
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: Extra }, or forgotten \endgroup.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: Extra }, or forgotten \endgroup.
 \@par ... \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.362 \end{document}
+l.370 \end{document}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1020,13 +1070,13 @@ Before submitting the final camera ready copy, remember to:
 
 ]
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:362: LaTeX Error: \begin{center} on input line 231 ended by \end{document}.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: LaTeX Error: \begin{center} on input line 232 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.362 \end{document}
+l.370 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1052,18 +1102,18 @@ Package rerunfilecheck Info: Checksums for `Final-Report-TEAM-2.out':
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 231 (\begingroup)
+### semi simple group (level 1) entered at line 232 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25765 strings out of 474718
- 483186 string characters out of 5748457
+ 25982 strings out of 474718
+ 487602 string characters out of 5748457
  1943036 words of memory out of 5000000
- 47354 multiletter control sequences out of 15000+600000
+ 47563 multiletter control sequences out of 15000+600000
  595574 words of font info for 110 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,14n,103p,1326b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,14n,106p,1326b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final-Report-TEAM-2.pdf (7 pages, 1170293 bytes).
+Output written on Final-Report-TEAM-2.pdf (7 pages, 1168119 bytes).
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)

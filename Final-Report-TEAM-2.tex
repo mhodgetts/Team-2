@@ -8,6 +8,7 @@
 \def\@evenfoot{}}
 \makeatother
 \pagestyle{empty}
+\usepackage[document]{ragged2e}
 \usepackage{url}
 \usepackage{graphicx,subfigure}
 \usepackage{epstopdf}
@@ -197,7 +198,7 @@ The elbow chart indicates that 3-4 clusters should be adequate
 	\label{fig: Kmode Cluster Allocation (Partial View)}
  \end{figure}
 
- Dark Green represent more allocation vs darkred.  Percent volume of each cluster is reasonable between 20-30 percent.
+ Dark Green represent more allocation vs dark red.  Percent volume of each cluster is reasonable between 20-30 percent.
 
 \begin{center} 
 \textbf{Kmeans} 
@@ -215,7 +216,7 @@ The numerical results were disapointing in that the shared volume across the clu
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{KMEAN_Num_PostedSpeed.png}
-	\caption{kmeanexample for Posted Speed Limit}
+	\caption{kmean example for Posted Speed Limit}
 	\label{fig: Example View for Kmeans Posted Speed Limit Cluster Allocation}
  \end{figure}
 
@@ -240,7 +241,7 @@ The AIC and BIC are similar for all cluster values checked
 
 \textbf{DBSCAN} 
 \end{center}
-DBSCAN was very sensitive to the amount of data and columns.  Only numerical data was used here and finding the EPS and min sample values was a challenge,  Had to iterate through 50 different EPS values to find a sweet spot.  By changing EPS by only 0.01 increments at that sweet spot changed clusters size and number of cluster significantly. The best EPS value was 28
+DBSCAN was very sensitive to the amount of data and columns.  Only numerical data was used here and finding the EPS and min sample values was a challenge,  Had to iterate through 50 different EPS values to find a sweet spot.  By changing EPS by only 0.01 increments at that sweet spot changed clusters size and number of cluster significantly. The best EPS value for this particular dataset was 28.
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{EP_Finder.png}
@@ -260,7 +261,7 @@ The results were not optimal and we saw again high allocation to one cluster. Th
 \textbf{K-prototype} 
 \end{center}
 
-K-Prototype was our best soluton in that we can use all the data and train at the same time.  This took significantly longer to train as you can see compared to others in the Comparison table.  The volume allocation was similar to kmodes.  So we can use kmeans for numerical and kmodes for categorical and combine them but KP does it together.  We'll use KP to explain the main difference we see in the 4 clusters we trained on. We did not here of this type of clustering method and we'll use in the future.
+K-Prototype was our best soluton in that we can use all the data and train at the same time.  This took significantly longer to train as you can see compared to others in the Comparison table.  The volume allocation was similar to kmodes.  So we can use kmeans for numerical and kmodes for categorical and combine them but KP does it together.  We'll use KP to explain the main difference we see in the 4 clusters we trained on. Also, we did not here of this type of clustering method before and we'll definetly use in the future.
 
 \ linebreak
  \begin{figure}[!h]
@@ -279,45 +280,52 @@ Below is a partial view of the KP Heatmap for the 4 clusters
 	\label{fig: Cluster Heatmap for Categorical Attributes (4 Clusters)}
 \end{figure}
 
+
 \begin{center} 
-	\textbf{Key Cluster Finding} 
+	\textbf{Key Cluster Findings} 
 	\end{center}
-
-
-Cluster 1 \linebreak
--In general 1 has the lowest occurrence of crash attributes 
--lowest occurrence of any crash damage level 
--Volume is lowest 
--unlikely for Hit and run cases 
--first 1-3 day of week occurance 
+	Cluster 1 \linebreak
+	\begin{flushleft}
+-In general 1 has the lowest occurrence of crash attributes\linebreak
+-lowest occurrence of any crash damage level \linebreak
+-Volume is lowest \linebreak
+-unlikely for Hit and run cases \linebreak
+-first 1-3 day of week occurance \linebreak
+	\end{flushleft}
 
 Cluster 2 \linebreak
--In general 2 has the second lowest occurance of crash attributes
--Likely to see Parked Vehicle Crash
--likely Hit and Run
--overindex on Sex X
--overindex on Sex F
--first 1-3 day of week occurrence
+\begin{flushleft}
+-In general 2 has the second lowest occurance of crash attributes \linebreak
+-Likely to see Parked Vehicle Crash\linebreak
+-likely Hit and Run\linebreak
+-overindex on Sex X\linebreak
+-overindex on Sex F\linebreak
+-first 1-3 day of week occurrence\linebreak
+\end{flushleft}
 
 Cluster 3 \linebreak
--Overindex on Crash Injury
--Overindex turning related crash type
--Overindex on Interection related crash
--Overindex incapaciting injury
--Overindex disregarding traffic signals
--Overindex device condition functioning properly
--Overindex disregarding stop sign
--Overindex likely to report on scene
--likely to occur in the first 6 months of years
+\begin{flushleft}
+-Overindex on Crash Injury \linebreak
+-Overindex turning related crash type \linebreak
+-Overindex on Interection related crash \linebreak
+-Overindex incapaciting injury \linebreak
+-Overindex disregarding traffic signals \linebreak
+-Overindex device condition functioning properly \linebreak
+-Overindex disregarding stop sign \linebreak
+-Overindex likely to report on scene \linebreak
+-likely to occur in the first 6 months of years \linebreak
+\end{flushleft}
 
 Cluster 4 \linebreak
--Volume is highest 
--Overindex Parked Motor Vehicle
--Overindex on no injury 
--Overindex no control for device condition (non traffic light) 
--Overindex to be rear ended 
--Overindex for follow to closely crash type 
--Overindex for months 7-12 
+\begin{flushleft}
+-Volume is highest \linebreak
+-Overindex Parked Motor Vehicle \linebreak
+-Overindex on no injury \linebreak
+-Overindex no control for device condition (non traffic light) \linebreak
+-Overindex to be rear ended \linebreak
+-Overindex for follow to closely crash type \linebreak
+-Overindex for months 7-12 \linebreak
+\end{flushleft}
 
 
 \begin{figure}[h!]
