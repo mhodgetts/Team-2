@@ -84,8 +84,8 @@ Practice as a team to analyse unsupervised data by exploring various clustering 
 \end{abstract}
 
 \section{Introduction}
-Utilizing two datasets from Chicago Department website (Crashes and People related to Crashes), we like to find areas/neighborhoods within the city that have different characteristics in terms of the attributes available.  Dataset is large (750K rows) so we decided to look at only 2 years,i.e. 2021 and 2022 which reduces the row count to about 250K.  There is a good amount of prep to get data suitable for cluster analysis (ETL, Hot Encoding, data cleanup)
-We tried 5 different cluster methods with varying results.  e'll give some brief description of each method and its pros and cons for this particular data set.  We will illustrate some of the main differences these assigned clusters present. Provide a summary of each cluster characteristics to illustrate the main differences between them.  
+Utilizing two datasets from Chicago Department website (Crashes and People related to Crashes), we like to find areas/neighborhoods within the city that have different characteristics in terms of the attributes available.  Dataset is large (750K rows) so we decided to look at only 2 years, i.e. 2021 and 2022 which reduces the row count to about 250K.  There is a good amount of prep to get data suitable for cluster analysis (ETL, Hot Encoding, data cleanup)
+We tried 5 different cluster methods with varying results.  We'll give some brief description of each method and its pros and cons for this particular data set.  We will illustrate some of the main differences these assigned clusters present. Provide a summary of each cluster characteristics to illustrate the main differences between them.  
 
 Figure 1 illustrates Chicago Heatmap of Crashes by Zip code.  Hade to use partial data since the original data had no zip for the crashes so had to use Nomatin to extract in python but there a limitation on how many you can search without further payment.  You can see that the majority of the crashes are in the lower half of the city.
 
@@ -96,7 +96,7 @@ Figure 1 illustrates Chicago Heatmap of Crashes by Zip code.  Hade to use partia
  \end{figure}
 
 \section{Related Work}
-There are many examples on how clustering solves problems in various business use cases.  Segmentation analysis, anomoly detection and a form of classification are some of the use cases. There are also Deep Learning techniques that we could have explored but we ran out of time.  The analysis here could be useful to identify hot areas of accidents due to poor signage, road conditions, and other conditions that could be improved to reduce accidents or injuries in the Chicago area.  Practicing how to get meaningful insights is essential in the business world.  Also, knowledge of mapping techniques or illustrating the clusters using coordinates or zip codes would be useful.  We are deficient in this area and had spent endless hours trying to learn shapely files and GEO methods to show how the car accidents distributed across the Chicago area.  It seems you can have a semester class on mapping techniques alone.
+There are many examples on how clustering solves problems in various business use cases.  Segmentation analysis, anomoly detection and a form of classification are some of the use cases. There are also Deep Learning techniques that we could have explored but we ran out of time.  The analysis here could be useful to identify hot areas of accidents due to poor signage, road conditions, and other conditions that could be improved to reduce accidents or injuries in the Chicago area.  Practicing how to get meaningful insights is essential in the business world.  Also, knowledge of mapping techniques or illustrating the clusters using coordinates or zip codes was useful.  Our skills in this area are weak and had spent endless hours trying to learn shapely files and GEO methods to show how the car accidents distributed across the Chicago area.  It seems you can have a semester class on mapping techniques alone.
 
 
 \section{Our Solution}
@@ -113,7 +113,7 @@ Here is the workflow using KNIME ETL software:
 
  Knime workflow takes in both car crashes file and people related to those crashes and join them using the crash id common attribute.  We then filter redundant columns due to the join and evaluate which columns not relevant and impute mean data for missing values for those remaining.
 
-Data had very few problems with missing data but we removed as necessary or added average values as needed. We separated the dataset into two parts, categorical and numerical.  Performed Hot Encoding on the categorical and scaling on the numberical (0,1), then combined them back together as one file.  New Shape of the file is now  248K by 111 columns with hot encoding. We created another dataset for k-prototypes which has 31 columns based on what attributes we deemed valuable.  Pie charts were useful in this particular dataset since most attributes are categorical.  Many Attributes had too many categories that added more complexity so therefore we re-classify those less than 1 percent into one group called remainder to help reduce the number of hot columns needed. \linebreak
+Data had very few problems with missing data but we removed as necessary or added average values as needed. We separated the dataset into two parts, categorical and numerical.  Performed Hot Encoding on the categorical for useon some of the algorithms and scaling on the numberical (0,1), then combined them back together as one file.  New shape of the file is now  248K by 111 columns with hot encoding. We created another dataset for k-prototypes which has 31 columns based on what attributes we deemed valuable.  Pie charts were useful in this particular dataset since most attributes are categorical.  Many Attributes had too many categories that added more complexity so therefore we re-classify those less than 1 percent into one group called remainder to help reduce the number of hot columns needed. \linebreak
 
 Below is the list of columns we are working with in the dataset.  Some have been removed since they will not contribute to the model performance.
 \begin{figure}[!h]
@@ -137,7 +137,7 @@ More than half of the Top Driver clasifications are not known which hinders our 
 	\caption{Categorical Pie Charts (Sampling View)}
 	\label{fig: Top_Weather_Condition Pie chart}
  \end{figure}
-Majority of crashes where in clear Weather
+Majority of crashes where in clear weather
  
  \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Traffic_Control_Pie.png}
