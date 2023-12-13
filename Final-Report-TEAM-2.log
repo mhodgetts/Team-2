@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  12 DEC 2023 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  13 DEC 2023 09:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -998,41 +998,28 @@ File: C4_Heatmap.png Graphic file (type png)
 <use C4_Heatmap.png>
 Package pdftex.def Info: C4_Heatmap.png  used on input line 342.
 (pdftex.def)             Requested size: 67.20227pt x 87.36337pt.
- [6 <./DB_Cat.png> <./KPrototype_Elbow.png> <./Heatmap_KP.png> <./C1_Heatmap.png> <./C2_Heatmap.png> <./C3_Heatmap.png> <./C4_Heatmap.png>] (Final-Report-TEAM-2.bbl
-
-Final-Report-TEAM-2.bbl:24: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \end{thebibliography}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:365: Missing $ inserted.
+ [6 <./DB_Cat.png> <./KPrototype_Elbow.png> <./Heatmap_KP.png> <./C1_Heatmap.png> <./C2_Heatmap.png> <./C3_Heatmap.png> <./C4_Heatmap.png>] (Final-Report-TEAM-2.bbl)
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:366: Missing $ inserted.
 <inserted text> 
                 $
-l.365 4) https://scikit-learn.org/stable/auto_
-                                              examples/cluster/plot_dbscan.h...
+l.366 4: https://scikit-learn.org/stable/auto_
+                                              examples/cluster/plot_dbscan.html
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: Missing $ inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:372: Missing $ inserted.
 <inserted text> 
                 $
-l.370 \end{document}
-                    
+l.372 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: Missing } inserted.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:372: Missing } inserted.
 <inserted text> 
                 }
-l.370 \end{document}
-                    
+l.372 
+      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1040,15 +1027,15 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (8.19029pt too wide) in paragraph at lines 359--370
- \OML/cmm/m/it/10 ==geopandas:org=en=stable=docs=user[]uide=mapping:html 
+Overfull \hbox (8.19029pt too wide) in paragraph at lines 360--372
+\OML/cmm/m/it/10 ==geopandas:org=en=stable=docs=user[]uide=mapping:html 
  []
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:372: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.370 \end{document}
-                    
+l.372 
+      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1070,13 +1057,13 @@ Before submitting the final camera ready copy, remember to:
 
 ]
 
-c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:370: LaTeX Error: \begin{center} on input line 232 ended by \end{document}.
+c:/Users/mhodg/Team-Crashes/Final-Report-TEAM-2.tex:374: LaTeX Error: \begin{flushleft} on input line 359 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.370 \end{document}
+l.374 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1098,22 +1085,23 @@ Package rerunfilecheck Warning: File `Final-Report-TEAM-2.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Final-Report-TEAM-2.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  79C270AD6F30AB0E8D4529BD8164CF08;1261.
+(rerunfilecheck)             After:  A1DCC5C2871E6303AC0CB79766E4A257;1259.
  )
-(\end occurred inside a group at level 1)
+(\end occurred inside a group at level 2)
 
+### semi simple group (level 2) entered at line 359 (\begingroup)
 ### semi simple group (level 1) entered at line 232 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25982 strings out of 474718
- 487602 string characters out of 5748457
+ 25974 strings out of 474718
+ 487407 string characters out of 5748457
  1943036 words of memory out of 5000000
- 47563 multiletter control sequences out of 15000+600000
+ 47555 multiletter control sequences out of 15000+600000
  595574 words of font info for 110 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 103i,14n,106p,1326b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,14n,106p,1326b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mhodg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Final-Report-TEAM-2.pdf (7 pages, 1168119 bytes).
+Output written on Final-Report-TEAM-2.pdf (7 pages, 1167882 bytes).
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
