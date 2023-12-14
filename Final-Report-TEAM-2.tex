@@ -172,14 +172,14 @@ We utilized pspark to use groupby by clusters by percent of occurence to see wha
 \subsection{Implementation Details and Comparison}
 
  
-In this section we'll discuss the results of each method and show more in detail the best solution results.  The table below shows a summary of the different clustering algorithms.
+In this section we'll discuss the results of each method and show more in detail the best solution results.  Figure 9 below shows a summary of the different clustering algorithms.
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Model_summary.png}
 	\caption{Model Summary}
 	\label{fig: Model_summary}
 \end{figure}
 
-Table above illustrates how each cluster method can be applied.  DBSCAN didn't seem suited for this dataset and it was very difficult to work with in terms of tuning parameters like EPS and Min samples.  Doesn't seem to scale well with all this data.  Kmodes and KPrototype we fairly close but KP had less error with both numberical and categorical combined to the only categorical of the kmodes.  
+Figure 9 illustrates how each cluster method can be applied.  DBSCAN didn't seem suited for this dataset and it was very difficult to work with in terms of tuning parameters like EPS and Min samples.  Doesn't seem to scale well with all this data.  Kmodes and KPrototype we fairly close but KP had less error with both numberical and categorical combined to the only categorical of the kmodes.  
 
 \begin{center} 
 \textbf{Kmodes} 
@@ -223,7 +223,7 @@ The numerical results were disapointing in that the shared volume across the clu
 \begin{center} 
 \textbf{GMM} 
 \end{center}
-We used both numeric scaling and hot encoding here but we think that GMM is suited better with only numerical data.  Here the cluster allocation was skewed towards one cluster that has the majority of volume.  This was not our ideal solution.  Here below is partial view of the cluster allocation.  The first cluster is dominate in size with over 69 percent of the population. 
+We used both numeric scaling and hot encoding here but we think that GMM is suited better with only numerical data.  Figure 15 shows the cluster allocation was skewed towards one cluster that has the majority of volume.  This was not our ideal solution.  Here below is partial view of the cluster allocation.  The first cluster is dominate in size with over 69 percent of the population. 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{GMM_Clutering.png}
 	\caption{GMM Elbow}
@@ -248,7 +248,7 @@ DBSCAN was very sensitive to the amount of data and columns.  Only numerical dat
 	\caption{DBSCAN EPS Finder}
 	\label{fig: EPS Finder}
  \end{figure}
-We ran category data as well and found it very sensitive to the size of data and number of columns, could not run with the required column size.  Had to reduce the size of the file to get the results below (Show partial view):
+We ran category data as well and found it very sensitive to the size of data and number of columns, could not run with the required column size.  Had to reduce the size of the file to get the results below (Show partial view): View in figure 17.
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{DB_Cat.png}
@@ -262,8 +262,10 @@ The results were not optimal and we saw again high allocation to one cluster. Th
 \end{center}
 
 K-Prototype was our best soluton in that we can use all the data and train at the same time.  This took significantly longer to train as you can see compared to others in the Comparison table.  The volume allocation was similar to kmodes.  So we can use kmeans for numerical and kmodes for categorical and combine them but KP does it together.  We'll use KP to explain the main difference we see in the 4 clusters we trained on. Also, we did not here of this type of clustering method before and we'll definetly use in the future.
+Figure 19 is a partial view of the KP Heatmap for the 4 clusters
 
-\ linebreak
+
+
  \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{KPrototype_Elbow.png}
 	\caption{k-prototype}
@@ -271,8 +273,6 @@ K-Prototype was our best soluton in that we can use all the data and train at th
  \end{figure}
 
 \textbf{Cluster-Characteristics} \linebreak
-
-Below is a partial view of the KP Heatmap for the 4 clusters
 
 \begin{figure}[!h]
 	\includegraphics[width=\linewidth]{Heatmap_KP.png}
@@ -353,20 +353,24 @@ There are Deep Learning techniques that we noticed when we researching other met
 Cluster analysis is powerful and easily understandable algorithm to utilize in unsupervised applications.  The finding of k-Prototype Algorithm enables to evaluate both numeric and categorical data in one training session.  Learning other methods like DBSCAN, GMM and kmodes was also beneficial to know for future applications.  In terms of the Chicago data, there are some major difference between the clusters and Chicago dept of Transportation may be interested in such analysis to help prevent serious accidents or fix troublesome intersections or poor signing issues. Team learned a lot about the pros and cons of these methods
 
  
-
+\section{References}
 \bibliographystyle{IEEEtran}
 \bibliography{}
-1) https://scottmduda.medium.com/categorical-clustering-of-pittsburgh-car-accidents-using-k-modes-7c842cc15d87 
+\begin{flushleft}
+1: https://scottmduda.medium.com/categorical-clustering-of-pittsburgh-car-accidents-using-k-modes-7c842cc15d87 
 \linebreak
-2) https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if 
+2: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if 
 \linebreak
-3) https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/  
+3: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/  
 \linebreak
-4) https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html \linebreak
-5) https://antonsruberts.github.io/kproto-audience/ 
+4: https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html 
 \linebreak
-6) https://geopandas.org/en/stable/docs/user_guide/mapping.html 
+5: https://antonsruberts.github.io/kproto-audience/ 
 \linebreak
+6: https://geopandas.org/en/stable/docs/user_guide/mapping.html 
+\linebreak
+
+
 \end{document}
 
 
